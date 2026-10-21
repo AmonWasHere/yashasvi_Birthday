@@ -37,18 +37,20 @@ export default function Footer() {
             <summary>art, references &amp; a note on copyright</summary>
             <div className="credits-body">
               <p>
-                Artworks are in the public domain or open access, via The Metropolitan
-                Museum of Art and Wikimedia Commons: Edgar Degas, <i>Portrait of a Young
-                Woman</i> (ca. 1885); Kitagawa Kikumaro, <i>Two Court Ladies</i> (probably
-                1815); John Singer Sargent, <i>Glacier</i> (ca. 1908–9); <i>Empty Stage</i>
-                (Italian, 19th century); Utagawa Hiroshige, <i>Clematis and Bird</i> (1852);
-                French School, <i>Botanical Studies</i> (ca. 1820); Thomas Rowlandson,
-                <i> Covent Garden Theatre</i> (1786); W. Duke, Sons &amp; Co., <i>Isabelle
-                Evesson as “The Strawberry”</i> (1889); Wenceslaus Hollar, <i>Portrait of a
-                Young Woman</i> (1647); <i>Plant-Forms Ornamentally Treated — Strawberry</i>
-                (Boston Public Library); pressed Arctic poppies (Wikimedia Commons); John
-                Harris, moth plate (Yale Center for British Art, CC0); <i>NIE 1905 Celestial
-                Charts</i>.
+                Public-domain and open-access art via The Metropolitan Museum of Art and
+                Wikimedia Commons: Edgar Degas, <i>Portrait of a Young Woman</i> (ca.
+                1885); Mary Delany, <i>Botanical Study</i> (ca. 1772–82); John Singer
+                Sargent, <i>Glacier</i> (ca. 1908–9); Utagawa Hiroshige, <i>Clematis and
+                Bird</i> (1852); Thomas Rowlandson, <i>Covent Garden Theatre</i> (1786);
+                <i> Plant-Forms Ornamentally Treated — Strawberry</i> (Boston Public
+                Library); and <i>NIE 1905 Celestial Charts</i>.
+              </p>
+              <p>
+                Author portraits of Sylvia Plath, Jane Austen and Fyodor Dostoevsky, and
+                character/manga images from <i>The Apothecary Diaries</i>, <i>Ramparts of
+                Ice</i>, <i>Nana</i> and <i>Alien Stage</i>, are included for a private,
+                non-commercial fan project. They remain © their respective creators,
+                photographers and publishers, and are not licensed for redistribution.
               </p>
               <p>
                 Made as a fan gift, with love, for the worlds and characters of <i>The

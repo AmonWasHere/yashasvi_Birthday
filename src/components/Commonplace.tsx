@@ -49,16 +49,17 @@ export default function Commonplace() {
                 {quote.note}
               </p>
 
-              {index === 0 && (
+              <figure className="quote-portrait">
+                <Tape className="tape--portrait-mini" />
                 <img
-                  className="quote-moth"
-                  src="/art/moth.webp"
-                  alt="A vintage natural-history illustration of a moth."
-                  width="900"
-                  height="1174"
+                  src={quote.portrait}
+                  alt={quote.portraitAlt}
+                  width="720"
+                  height="900"
                   loading="lazy"
                 />
-              )}
+              </figure>
+
               {index === 1 && <Teacup className="quote-cup" />}
               {index === 2 && (
                 <img

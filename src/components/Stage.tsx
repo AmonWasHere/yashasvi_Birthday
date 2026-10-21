@@ -127,13 +127,13 @@ export default function Stage() {
             <figure className="stage-photo" data-reveal>
               <Tape className="tape--stage" />
               <img
-                src="/art/stage.webp"
-                alt="A 19th-century drawing of an empty theatre stage seen from the wings."
-                width="1600"
-                height="1373"
+                src="/art/alien-stage.webp"
+                alt="The cast of Alien Stage — Mizi, Sua, Ivan, Till, Luka and Hyuna — smiling together."
+                width="1200"
+                height="674"
                 loading="lazy"
               />
-              <figcaption>empty stage, full house</figcaption>
+              <figcaption>the whole cast, one more round</figcaption>
             </figure>
 
             <div

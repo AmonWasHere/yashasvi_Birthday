@@ -96,8 +96,11 @@ Build with `npm run build`, then publish the `dist/` folder (for example with th
 
 ## A note on the references
 
-This is a personal, fan-made gift. The site does not use official artwork from any
-anime or manga. The literary quotes are short, attributed excerpts; the artworks are
-public domain or CC0. See [`CREDITS.md`](./CREDITS.md) for sources and licenses.
+This is a personal, fan-made gift. The decorative background art is public domain or
+CC0. The author portraits and character/manga images are copyrighted and are included
+for a **private, non-commercial** project; they are not licensed for redistribution.
+If you publish this site publicly, replace those images with licensed assets or get
+permission from the rights holders. See [`CREDITS.md`](./CREDITS.md) for sources and
+licenses.
 
 Made with love, tape, and a little bit of chaos.

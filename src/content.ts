@@ -35,6 +35,8 @@ export type Quote = {
   text: string;
   note: string;
   label: string;
+  portrait: string;
+  portraitAlt: string;
 };
 
 export const quotes: Quote[] = [
@@ -44,6 +46,8 @@ export const quotes: Quote[] = [
     author: 'Sylvia Plath',
     source: 'The Bell Jar',
     note: 'for every morning you have to remind yourself that you are still here — and still yours.',
+    portrait: '/art/plath.webp',
+    portraitAlt: 'Sylvia Plath, smiling and holding a flower.',
   },
   {
     label: 'dog-eared, no. 02',
@@ -51,6 +55,8 @@ export const quotes: Quote[] = [
     author: 'Jane Austen',
     source: 'Emma',
     note: 'the softest thing about you has always been the strongest thing about you.',
+    portrait: '/art/austen.webp',
+    portraitAlt: 'A portrait of Jane Austen.',
   },
   {
     label: 'dog-eared, no. 03',
@@ -58,6 +64,8 @@ export const quotes: Quote[] = [
     author: 'Fyodor Dostoevsky',
     source: 'The Idiot',
     note: 'evidence: you exist.',
+    portrait: '/art/dostoevsky.webp',
+    portraitAlt: 'A portrait of Fyodor Dostoevsky by Vasily Perov.',
   },
 ];
 

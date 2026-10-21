@@ -83,20 +83,34 @@ export default function Ice() {
             </button>
           </div>
 
-          <figure className="glacier-card" data-reveal>
-            <Tape className="tape--glacier" />
-            <div className="glacier-frame">
+          <div className="ice-visual">
+            <figure className="glacier-card" data-reveal>
+              <Tape className="tape--glacier" />
+              <div className="glacier-frame">
+                <img
+                  src="/art/glacier.webp"
+                  alt="A pale watercolor study of a glacier, all ice and dark rock."
+                  width="1600"
+                  height="1168"
+                  loading="lazy"
+                />
+                <span className="glacier-wash" aria-hidden="true" />
+              </div>
+              <figcaption>the view from your side</figcaption>
+            </figure>
+
+            <figure className="ice-manga" data-reveal>
+              <Tape className="tape--manga" />
               <img
-                src="/art/glacier.webp"
-                alt="A pale watercolor study of a glacier, all ice and dark rock."
-                width="1600"
-                height="1168"
+                src="/art/ramparts.webp"
+                alt="Cover of volume 7 of Ramparts of Ice, showing two characters in black and blue."
+                width="720"
+                height="1024"
                 loading="lazy"
               />
-              <span className="glacier-wash" aria-hidden="true" />
-            </div>
-            <figcaption>the view from your side</figcaption>
-          </figure>
+              <figcaption>required reading · vol. 07</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
     </section>

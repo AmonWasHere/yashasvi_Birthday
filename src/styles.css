@@ -1556,17 +1556,34 @@ h4 {
   line-height: 1.2;
 }
 
-.quote-moth {
+.quote-portrait {
   position: absolute;
-  top: -32px;
-  right: -24px;
-  width: 108px;
-  height: auto;
-  mix-blend-mode: multiply;
-  filter: sepia(0.3) contrast(1.04);
-  transform: rotate(8deg);
-  pointer-events: none;
+  top: -28px;
+  right: -18px;
   z-index: 7;
+  width: 116px;
+  margin: 0;
+  padding: 6px 6px 9px;
+  background: var(--paper-3);
+  box-shadow: 0 14px 22px rgba(43, 20, 8, 0.26), 0 2px 5px rgba(43, 20, 8, 0.14);
+  transform: rotate(3deg);
+}
+
+.quote-portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 1px solid rgba(43, 26, 18, 0.14);
+  filter: sepia(0.2) grayscale(0.8) contrast(1.04);
+}
+
+.tape--portrait-mini {
+  top: -9px;
+  left: 50%;
+  z-index: 9;
+  width: 54px;
+  height: 17px;
+  transform: translateX(-50%) rotate(-4deg);
 }
 
 .quote-cup {
@@ -1795,7 +1812,7 @@ h4 {
   min-height: 760px;
 }
 
-.court-card {
+.character-card {
   position: absolute;
   top: 0;
   right: 0;
@@ -1807,7 +1824,7 @@ h4 {
   transform: rotate(2.8deg);
 }
 
-.court-card::before {
+.character-card::before {
   content: '';
   position: absolute;
   inset: 6px;
@@ -1815,12 +1832,12 @@ h4 {
   pointer-events: none;
 }
 
-.court-card img {
+.character-card img {
   width: 100%;
-  filter: sepia(0.18) contrast(1.02);
+  filter: saturate(0.95) contrast(1.02);
 }
 
-.court-card figcaption {
+.character-card figcaption {
   padding: 0 4px 9px;
   color: var(--ink-soft);
   font-family: var(--font-hand);
@@ -1829,7 +1846,7 @@ h4 {
   text-align: left;
 }
 
-.court-card figcaption::before {
+.character-card figcaption::before {
   content: '✶';
   margin-right: 8px;
   color: var(--red);
@@ -1837,7 +1854,7 @@ h4 {
   font-size: 0.7em;
 }
 
-.tape--court {
+.tape--character {
   top: -16px;
   right: 26px;
   left: auto;
@@ -2096,6 +2113,11 @@ h4 {
   gap: clamp(40px, 7vw, 110px);
 }
 
+.ice-visual {
+  position: relative;
+  padding-bottom: 62px;
+}
+
 .ice-copy {
   max-width: 550px;
 }
@@ -2290,6 +2312,41 @@ h4 {
   background: var(--cream);
   box-shadow: var(--shadow-paper);
   transform: rotate(1.7deg);
+}
+
+.ice-manga {
+  position: absolute;
+  bottom: -52px;
+  left: -8%;
+  z-index: 5;
+  width: 38%;
+  margin: 0;
+  padding: 8px 8px 9px;
+  background: var(--cream);
+  box-shadow: var(--shadow-paper);
+  transform: rotate(-4deg);
+}
+
+.ice-manga img {
+  width: 100%;
+  filter: saturate(0.94) contrast(1.03);
+}
+
+.ice-manga figcaption {
+  padding-top: 6px;
+  color: var(--ice-ink);
+  font-family: var(--font-hand);
+  font-size: 1.1rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.tape--manga {
+  top: -13px;
+  left: 30%;
+  width: 76px;
+  height: 25px;
+  transform: rotate(-3deg);
 }
 
 .glacier-frame {
@@ -2686,32 +2743,74 @@ h4 {
   transform: rotate(-3deg);
 }
 
-.strawberry-lady {
+.nana-photo {
   position: absolute;
-  top: -20px;
+  top: 16px;
   right: 0;
   z-index: 4;
-  width: 23%;
+  width: 42%;
+  margin: 0;
+  padding: 8px;
+  background: var(--cream);
+  box-shadow: var(--shadow-paper);
+  transform: rotate(3deg);
+}
+
+.nana-photo img {
+  width: 100%;
+  filter: saturate(0.92) contrast(1.02);
+}
+
+.nana-photo figcaption {
+  padding-top: 6px;
+  color: var(--ink-soft);
+  font-family: var(--font-hand);
+  font-size: 1.15rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.tape--nana {
+  top: -12px;
+  left: 34%;
+  width: 78px;
+  height: 25px;
+  transform: rotate(-3deg);
+}
+
+.nana-cover {
+  position: absolute;
+  top: 255px;
+  right: 2%;
+  z-index: 3;
+  width: 26%;
   margin: 0;
   padding: 6px;
-  background: var(--paper-3);
+  background: var(--cream);
   box-shadow: var(--shadow-paper);
-  transform: rotate(5deg);
+  transform: rotate(4deg);
 }
 
-.strawberry-lady img {
+.nana-cover img {
   width: 100%;
-  mix-blend-mode: multiply;
+  filter: saturate(0.9) contrast(1.02);
 }
 
-.strawberry-lady-tape {
-  position: absolute;
+.nana-cover figcaption {
+  padding-top: 5px;
+  color: var(--ink-soft);
+  font-family: var(--font-hand);
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.tape--nana-cover {
   top: -10px;
-  left: 50%;
-  width: 42px;
-  height: 18px;
-  background: rgba(217, 185, 120, 0.9);
-  transform: translateX(-50%) rotate(-4deg);
+  left: 34%;
+  width: 64px;
+  height: 22px;
+  transform: rotate(-4deg);
 }
 
 .setlist-card {
@@ -2781,8 +2880,8 @@ h4 {
 
 .nana-pin {
   position: absolute;
-  right: 10%;
-  bottom: 138px;
+  right: 4%;
+  bottom: 112px;
   z-index: 6;
   width: 32px;
   color: var(--ink);
@@ -3132,10 +3231,10 @@ h4 {
 
 .stage-photo {
   position: absolute;
-  top: 15%;
-  right: 3%;
+  top: 11%;
+  right: 0;
   z-index: 2;
-  width: 63%;
+  width: 74%;
   margin: 0;
   padding: 12px 12px 10px;
   background: var(--cream);
@@ -3145,7 +3244,7 @@ h4 {
 
 .stage-photo img {
   width: 100%;
-  filter: grayscale(1) sepia(0.16) contrast(1.08);
+  filter: saturate(0.95) contrast(1.02);
 }
 
 .stage-photo figcaption {
@@ -3942,9 +4041,9 @@ h4 {
     margin-top: 0;
   }
 
-  .quote-moth {
+  .quote-portrait {
     right: -10px;
-    width: 96px;
+    width: 108px;
   }
 
   .apo-grid {
@@ -3972,8 +4071,14 @@ h4 {
   }
 
   .glacier-card {
+    width: 100%;
+    margin-inline: 0;
+  }
+
+  .ice-visual {
     width: min(100%, 650px);
     margin-inline: auto;
+    padding-bottom: 70px;
   }
 
   .ice-jp {
@@ -4219,7 +4324,7 @@ h4 {
     padding-top: 18px;
   }
 
-  .court-card,
+  .character-card,
   .pressed-card,
   .rx-card {
     position: static;
@@ -4227,7 +4332,7 @@ h4 {
     transform: rotate(-1.5deg);
   }
 
-  .court-card {
+  .character-card {
     width: 88%;
     align-self: flex-end;
     transform: rotate(2deg);
@@ -4265,6 +4370,17 @@ h4 {
   .ice-flake--1,
   .ice-flake--4 {
     display: none;
+  }
+
+  .ice-visual {
+    padding-bottom: 0;
+  }
+
+  .ice-manga {
+    position: static;
+    width: 56%;
+    margin: 14px 3% 0 auto;
+    transform: rotate(-3deg);
   }
 
   .frost-card {
@@ -4322,12 +4438,19 @@ h4 {
     width: min(100%, 420px);
   }
 
-  .strawberry-lady {
+  .nana-photo {
     position: static;
-    width: 44%;
+    width: min(100%, 420px);
+    margin-top: 4px;
+    transform: rotate(2deg);
+  }
+
+  .nana-cover {
+    position: static;
+    width: 48%;
     align-self: flex-end;
-    margin-top: -48px;
-    margin-right: 4%;
+    margin: -4px 3% 0 0;
+    transform: rotate(3deg);
   }
 
   .setlist-card {
@@ -4528,9 +4651,10 @@ h4 {
     padding: 26px 22px;
   }
 
-  .quote-moth {
-    width: 80px;
+  .quote-portrait {
     top: -22px;
+    right: -8px;
+    width: 96px;
   }
 
   .book-footer {

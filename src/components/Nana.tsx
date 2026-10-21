@@ -91,18 +91,35 @@ export default function Nana() {
             </figure>
 
             <figure
-              className="strawberry-lady"
+              className="nana-photo"
               data-reveal
               style={{ '--delay': '140ms' } as CSSProperties}
             >
+              <Tape className="tape--nana" />
               <img
-                src="/art/strawberry-lady.webp"
-                alt="A Victorian cigarette card of a woman dressed as a strawberry."
-                width="331"
-                height="623"
+                src="/art/nana.webp"
+                alt="Nana Osaki and Nana Komatsu sharing a strawberry."
+                width="1000"
+                height="563"
                 loading="lazy"
               />
-              <span className="strawberry-lady-tape" aria-hidden="true" />
+              <figcaption>the other Nana</figcaption>
+            </figure>
+
+            <figure
+              className="nana-cover"
+              data-reveal
+              style={{ '--delay': '190ms' } as CSSProperties}
+            >
+              <Tape className="tape--nana-cover" />
+              <img
+                src="/art/nana-cover.webp"
+                alt="Nana Osaki on the cover of the Nana 25th anniversary edition, volume 2."
+                width="600"
+                height="857"
+                loading="lazy"
+              />
+              <figcaption>the original, vol. 02</figcaption>
             </figure>
 
             <div

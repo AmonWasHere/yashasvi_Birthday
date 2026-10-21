@@ -89,14 +89,14 @@ export default function Apothecary() {
           </div>
 
           <div className="apo-visual">
-            <figure className="court-card" data-reveal>
-              <Tape className="tape--court" />
+            <figure className="character-card" data-reveal>
+              <Tape className="tape--character" />
               <figcaption>the sharpest girl in the room</figcaption>
               <img
-                src="/art/court.webp"
-                alt="A vintage Japanese woodblock print of two court ladies examining fabric together."
-                width="1100"
-                height="1224"
+                src="/art/maomao.webp"
+                alt="Mao Mao, the apothecary, surrounded by flowers."
+                width="900"
+                height="1125"
                 loading="lazy"
               />
             </figure>
