@@ -101,17 +101,6 @@ export default function Nana() {
           707
         </span>
 
-        <figure className="nana-v2-strawberry">
-          <Tape className="tape--strawberry-v2" />
-          <img
-            src="/art/strawberry.webp"
-            alt="A vintage botanical illustration of a strawberry plant, printed in red ink."
-            width="853"
-            height="1200"
-            loading="lazy"
-          />
-          <figcaption>split two ways</figcaption>
-        </figure>
 
         <figure className="nana-v2-cover">
           <Tape className="tape--nana-cover-v2" />

@@ -1,16 +1,5 @@
 # Credits & sources
 
-## Artworks
-
-Most decorative artworks are public domain, CC0, or otherwise open access, via The
-Metropolitan Museum of Art and Wikimedia Commons. They have been cropped, resized,
-and duotoned for this project.
-
-| Used in | Work | Artist / source | License |
-| --- | --- | --- | --- |
-| The Apothecary | *Botanical Study* (ca. 1772–82) | Mary Delany — [The Met, object 360446](https://www.metmuseum.org/art/collection/search/360446) | Public domain / Met Open Access |
-| The Zine | *Plant-Forms Ornamentally Treated — Strawberry* | Boston Public Library — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plant-Forms_Ornamentally_Treated_-_Strawberry_by_Boston_Public_Library.jpg) | Public domain |
-
 ## Other photographs
 
 - **Wish background** — vintage birthday cake still life, source via FineArtAmerica;

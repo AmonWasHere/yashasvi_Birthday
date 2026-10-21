@@ -38,17 +38,12 @@ export default function Footer() {
             <summary>art, references &amp; a note on copyright</summary>
             <div className="credits-body">
               <p>
-                Public-domain and open-access art via The Metropolitan Museum of Art and
-                Wikimedia Commons: Mary Delany, <i>Botanical Study</i> (ca. 1772–82);
-                and <i>Plant-Forms Ornamentally Treated — Strawberry</i> (Boston Public
-                Library).
-              </p>
-              <p>
-                Author portraits of Sylvia Plath, Jane Austen and Fyodor Dostoevsky, and
-                character/manga images from <i>The Apothecary Diaries</i>, <i>Nana</i> and
-                <i>Alien Stage</i>, are included for a private,
-                non-commercial fan project. They remain © their respective creators,
-                photographers and publishers, and are not licensed for redistribution.
+                Author portraits of Sylvia Plath, Jane Austen and Fyodor Dostoevsky,
+                character/manga images from <i>The Apothecary Diaries</i>, <i>Nana</i>,
+                <i>Alien Stage</i> and other referenced works, and the vintage cake
+                photograph, are included for a private, non-commercial fan project. They
+                remain © their respective creators, photographers and publishers, and are
+                not licensed for redistribution.
               </p>
               <p>
                 Made as a fan gift, with love, for the worlds and characters of <i>The

@@ -1,5 +1,5 @@
 import { apothecary } from '../content';
-import { Spark, Tape } from './Ornaments';
+import { Spark } from './Ornaments';
 
 function Bottle({
   label,
@@ -99,17 +99,6 @@ export default function Apothecary() {
           {apothecary.seal}
         </span>
 
-        <figure className="pressed-card apo-v2-pressed">
-          <Tape className="tape--pressed" />
-          <img
-            src="/art/pressed.webp"
-            alt="An 18th-century cut-paper botanical study of a flowering plant on a dark background."
-            width="848"
-            height="960"
-            loading="lazy"
-          />
-          <figcaption>pressed from a good day</figcaption>
-        </figure>
 
         <div className="rx-card apo-v2-rx">
           <div className="rx-head">

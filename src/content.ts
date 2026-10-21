@@ -117,7 +117,6 @@ export const nana = {
     side: 'side A',
     tracks: ['Rose', 'Glamorous Sky', 'Kuroi Namida', 'Endless Story'],
   },
-  strawberryNote: 'two strawberries, split down the middle',
   punkNote: 'PUNK IS A LOVE LANGUAGE',
   keyTag: '707',
 };
