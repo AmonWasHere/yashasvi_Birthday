@@ -99,11 +99,11 @@ export const nana = {
   kicker: '03 — the zine',
   reference: 'after Nana · Ai Yazawa',
   title: 'NANA',
-  sublineLead: 'two girls, same name,',
+  sublineLead: 'two girls, two names,',
   sublineAccent: 'one ridiculous heart.',
   paragraphs: [
-    'For the girl who is equal parts strawberry and safety pin. Nana taught us that growing up is messy, love is loud, and the right person will still pick you at the end of the show.',
-    'Two girls, same name, one ridiculous heart. I would share a strawberry with you at 2 a.m. and call it a personality. I would follow you to Tokyo. I would even let you have the last fry.',
+    'Hey, birthday girl. I’m not going to get all sentimental about it, so here it is: you’re one of the few people I’d split a strawberry with at 2 a.m. and still want to talk to in the morning. You’re loud when you need to be, soft when you think no one’s looking, and you never make me explain myself. That’s rarer than a good punk show.',
+    'Happy birthday. Wear the ridiculous thing. Sing too loud. Take the last fry — I’ll pretend I didn’t want it anyway. And when the year gets heavy, call me. I’ll bring the strawberries, sit on the floor, and stay until the room feels bigger. Two girls, two names, one ridiculous heart. Obviously, that’s us.',
   ],
   rules: ['Text back.', 'Share the fries.', 'Never disappear.', 'If the world ends, bring snacks.'],
   ticket: {
