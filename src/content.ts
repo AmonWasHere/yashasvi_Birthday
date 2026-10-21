@@ -20,7 +20,7 @@ export const letter = {
     'But I know you well enough to know that you’ll get through this — and you’ll probably make something out of it, too. Not because you have to be resilient all the time, but because that’s how you roll: you take all those fragmented parts and mould them into something whole and entirely yours.',
     'So here’s your birthday wish. I hope this year brings a little more gentleness into your life. I hope it lets you step away from the hectic pace of things and indulge in what you need, without any obligations attached. You can want whatever you want. I hope this birthday reminds you of that — and brings some fun along with it.',
   ],
-  closing: 'I love you. That’s all.',
+  closing: 'With warmest regards,',
   signature: 'Amon',
   envelope: {
     to: ['the birthday girl', 'somewhere warm'],
