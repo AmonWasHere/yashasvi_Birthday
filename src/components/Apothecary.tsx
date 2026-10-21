@@ -91,6 +91,7 @@ export default function Apothecary() {
           <div className="apo-visual">
             <figure className="court-card" data-reveal>
               <Tape className="tape--court" />
+              <figcaption>the sharpest girl in the room</figcaption>
               <img
                 src="/art/court.webp"
                 alt="A vintage Japanese woodblock print of two court ladies examining fabric together."
@@ -98,7 +99,6 @@ export default function Apothecary() {
                 height="1224"
                 loading="lazy"
               />
-              <figcaption>the sharpest girl in the room</figcaption>
             </figure>
 
             <figure
@@ -109,9 +109,9 @@ export default function Apothecary() {
               <Tape className="tape--pressed" />
               <img
                 src="/art/pressed.webp"
-                alt="Pressed arctic poppies on an old herbarium sheet."
-                width="931"
-                height="1400"
+                alt="An 18th-century cut-paper botanical study of a flowering plant on a dark background."
+                width="848"
+                height="960"
                 loading="lazy"
               />
               <figcaption>pressed from a good day</figcaption>

@@ -9,7 +9,7 @@ resized, and duotoned for this project.
 | --- | --- | --- | --- |
 | Hero portrait, social preview | *Portrait of a Young Woman* (ca. 1885) | Edgar Degas — [The Met, object 436153](https://www.metmuseum.org/art/collection/search/436153) | Public domain / Met Open Access |
 | The Apothecary | *Two Court Ladies* (probably 1815) | Kitagawa Kikumaro — [The Met, object 54552](https://www.metmuseum.org/art/collection/search/54552) | Public domain / Met Open Access |
-| The Apothecary | Pressed arctic poppies on a herbarium sheet | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arctic_Poppy._Three_pressed_plants_with_leaves,_roots,_yellow_flowers_and_seed_pods._(fb391386-373f-4dce-8d1d-853b4e52ccbe).jpg) | Public domain |
+| The Apothecary | *Botanical Study* (ca. 1772–82) | Mary Delany — [The Met, object 360446](https://www.metmuseum.org/art/collection/search/360446) | Public domain / Met Open Access |
 | Ramparts of Ice | *Glacier* (ca. 1908–9) | John Singer Sargent — [The Met, object 12102](https://www.metmuseum.org/art/collection/search/12102) | Public domain / Met Open Access |
 | The Stage | *Empty Stage* (19th century) | Anonymous, Italian — [The Met, object 390439](https://www.metmuseum.org/art/collection/search/390439) | Public domain / Met Open Access |
 | The Stage | *Clematis and Bird* (1852) | Utagawa Hiroshige — [The Met, object 56930](https://www.metmuseum.org/art/collection/search/56930) | Public domain / Met Open Access |
@@ -17,7 +17,7 @@ resized, and duotoned for this project.
 | The Zine | *Isabelle Evesson as “The Strawberry”* (1889) | W. Duke, Sons & Co. — [The Met, object 423199](https://www.metmuseum.org/art/collection/search/423199) | Public domain / Met Open Access |
 | The Zine | *Plant-Forms Ornamentally Treated — Strawberry* | Boston Public Library — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plant-Forms_Ornamentally_Treated_-_Strawberry_by_Boston_Public_Library.jpg) | Public domain |
 | The Commonplace Book | *Phalaena Aceris Acer Rubrum* (Grey Maple Moth, Red Maple), Plate 93 | John Harris — Yale Center for British Art, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_Harris_-_Phalaena_Aceris_Acer_Rubrum_(Grey_Maple_Moth,_Red_Maple),_Plate_93_from_James_Edward_Smith,_the_-_B2011.20.4_-_Yale_Center_for_British_Art.jpg) | CC0 |
-| The Commonplace Book | Celestial chart | *NIE 1905 Celestial Charts* (see above) | Public domain |
+| The Commonplace Book | *NIE 1905 Celestial Charts* | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NIE_1905_Celestial_Charts.png) | Public domain |
 
 ## Quotes
 

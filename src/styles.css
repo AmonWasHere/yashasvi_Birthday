@@ -1821,19 +1821,28 @@ h4 {
 }
 
 .court-card figcaption {
-  padding-top: 8px;
+  padding: 0 4px 9px;
   color: var(--ink-soft);
   font-family: var(--font-hand);
   font-size: 1.25rem;
   line-height: 1;
-  text-align: center;
+  text-align: left;
+}
+
+.court-card figcaption::before {
+  content: '✶';
+  margin-right: 8px;
+  color: var(--red);
+  font-family: var(--font-body);
+  font-size: 0.7em;
 }
 
 .tape--court {
-  top: -17px;
-  left: 28%;
-  width: 96px;
-  transform: rotate(-5deg);
+  top: -16px;
+  right: 26px;
+  left: auto;
+  width: 84px;
+  transform: rotate(4deg);
 }
 
 .pressed-card {
@@ -1851,7 +1860,6 @@ h4 {
 
 .pressed-card img {
   width: 100%;
-  mix-blend-mode: multiply;
 }
 
 .pressed-card figcaption {
@@ -4238,9 +4246,9 @@ h4 {
   }
 
   .apo-seal {
-    top: -6px;
-    right: 2%;
-    left: auto;
+    position: static;
+    align-self: flex-end;
+    margin: 8px 3% 0 0;
     width: 66px;
     height: 66px;
     font-size: 2rem;
