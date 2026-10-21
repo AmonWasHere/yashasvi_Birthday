@@ -21,7 +21,7 @@ export const letter = {
     'Happy birthday. May this year be gentle with you. May you be a little reckless with your joy. And may you always, always know where home is.',
   ],
   closing: 'I love you more than the last page of a good book.',
-  signature: 'your friend',
+  signature: 'Amon',
   envelope: {
     to: ['the birthday girl', 'somewhere warm'],
     from: 'me, with cake',
@@ -152,5 +152,5 @@ export const wish = {
     'Wish received. The universe has been notified. (It’s a little scared of you.)',
   signoff:
     'Here’s to another year of you — the whole loud, tender, impossible thing.',
-  signature: 'with all my love, your friend',
+  signature: 'Yours sincerely, Amon',
 };
