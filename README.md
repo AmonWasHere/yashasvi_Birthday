@@ -1,5 +1,9 @@
 # Happy Birthday, Yashasvi — a scrapbook
 
+**Live:** [yashasvi-birthday-two.vercel.app](https://yashasvi-birthday-two.vercel.app)
+
+**Repo:** [github.com/AmonWasHere/yashasvi_Birthday](https://github.com/AmonWasHere/yashasvi_Birthday)
+
 A single-page, collage-style birthday site. Rust walls, taped paper, public-domain
 portraits, poets, an apothecary, a punk zine, and a stage with the lights on.
 
