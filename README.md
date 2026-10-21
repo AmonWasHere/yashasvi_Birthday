@@ -34,7 +34,8 @@ Almost all of the words live in **`src/content.ts`**:
 
 Pictures are in `public/art/`. Swap in your own photos and update the `alt` text in
 the matching component. The hero portrait is used in the social preview at
-`public/og.jpg` too.
+`public/og.jpg` too — if you change the name in the hero, update or regenerate that
+image as well.
 
 The site ships with `noindex, nofollow` and a `robots.txt` that disallows crawlers —
 it is meant to be shared by link, not found in search. Remove both if you want it
