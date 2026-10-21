@@ -40,8 +40,12 @@ export default function Wish() {
   const relight = () => setLit([true, true, true, true, true]);
 
   return (
-    <section className="section section--rust wish" id="wish">
+    <section className="wish-v2" id="wish">
       <TornEdge color="var(--night)" />
+      <div className="wish-v2-bg" aria-hidden="true">
+        <img src="/art/portrait.webp" alt="" width="1400" height="1700" loading="lazy" />
+      </div>
+      <div className="wish-v2-wash" aria-hidden="true" />
 
       {allOut && (
         <div className="petals" aria-hidden="true">
@@ -63,23 +67,21 @@ export default function Wish() {
         </div>
       )}
 
-      <div className="container">
-        <header className="section-top section-top--light">
+      <div className="wish-v2-inner">
+        <header className="wish-v2-head">
           <p className="kicker">07 — the wish</p>
-          <p className="section-top-meta">the last page (for now)</p>
+          <p className="wish-v2-meta">the last page (for now)</p>
         </header>
 
-        <div className="wish-head">
-          <h2 data-reveal>
+        <div className="wish-v2-heading">
+          <h2>
             {wish.titleLead} <em>{wish.titleAccent}</em>
           </h2>
-          <p className="section-lede" data-reveal>
-            {wish.intro}
-          </p>
+          <p className="wish-v2-intro">{wish.intro}</p>
         </div>
 
-        <div className="wish-grid">
-          <div className="wish-cake-wrap">
+        <div className="wish-v2-main">
+          <div className="wish-v2-cake">
             <Cake lit={lit} onBlow={toggleCandle} />
 
             <div className="wish-controls">
@@ -103,12 +105,11 @@ export default function Wish() {
             </p>
           </div>
 
-          <article className="wish-letter" data-reveal>
+          <article className="wish-letter wish-v2-letter">
             <Tape className="tape--wish" />
             <p className="wish-letter-kicker">before you blow them out</p>
             <h3>
-              Whatever you wish for,
-              <br />
+              <span className="wish-line">Whatever you wish for,</span>
               <em>I hope it finds you first.</em>
             </h3>
             <p className="wish-letter-body">{wish.signoff}</p>

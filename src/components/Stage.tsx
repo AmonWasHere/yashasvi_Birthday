@@ -1,7 +1,7 @@
 import type { CSSProperties } from 'react';
 import { useState } from 'react';
 import { stage as stageContent } from '../content';
-import { Spark, Tape, TornEdge } from './Ornaments';
+import { Spark, Tape } from './Ornaments';
 
 const stars = [
   [8, 18, 2],
@@ -26,8 +26,17 @@ export default function Stage() {
   const [lit, setLit] = useState(false);
 
   return (
-    <section className={`section section--night stage${lit ? ' is-lit' : ''}`} id="stage">
-      <TornEdge color="var(--news)" />
+    <section className={`stage-v2${lit ? ' is-lit' : ''}`} id="stage">
+      <div className="stage-v2-bg" aria-hidden="true">
+        <img
+          src="/art/alien-stage.webp"
+          alt=""
+          width="1200"
+          height="674"
+          loading="lazy"
+        />
+      </div>
+      <div className="stage-v2-wash" aria-hidden="true" />
 
       <div className="stage-sky" aria-hidden="true">
         {stars.map(([left, top, size], index) => (
@@ -52,35 +61,31 @@ export default function Stage() {
         <span />
       </div>
 
-      <p className="stage-side" aria-hidden="true">
+      <p className="stage-v2-side" aria-hidden="true">
         alien stage <i>·</i> round ∞ <i>·</i> live
       </p>
 
-      <div className="container">
-        <header className="section-top section-top--light">
+      <div className="stage-v2-inner">
+        <header className="stage-v2-head">
           <p className="kicker">06 — the stage</p>
-          <p className="section-top-meta">{stageContent.reference}</p>
+          <div className="stage-v2-head-right">
+            <p className="stage-v2-meta">{stageContent.reference}</p>
+            <p className="stage-v2-tagline">{stageContent.tagline}</p>
+          </div>
         </header>
 
-        <div className="stage-head">
-          <p className="stage-round" data-reveal>
-            {stageContent.round}
-          </p>
-          <h2 data-reveal>
+        <div className="stage-v2-title">
+          <p className="stage-v2-round">{stageContent.round}</p>
+          <h2>
             {stageContent.titleLead} <em>{stageContent.titleAccent}</em>
           </h2>
-          <p className="stage-ref" data-reveal>
-            {stageContent.tagline}
-          </p>
         </div>
 
-        <div className="stage-grid">
-          <div className="stage-copy">
-            <div data-reveal>
-              {stageContent.paragraphs.map((paragraph) => (
-                <p key={paragraph.slice(0, 18)}>{paragraph}</p>
-              ))}
-            </div>
+        <div className="stage-v2-bottom">
+          <div className="stage-v2-copy">
+            {stageContent.paragraphs.map((paragraph) => (
+              <p key={paragraph.slice(0, 18)}>{paragraph}</p>
+            ))}
 
             <button
               type="button"
@@ -109,58 +114,25 @@ export default function Stage() {
               {lit ? stageContent.litLine : ''}
             </p>
 
-            <p className="stage-front-row hand">{stageContent.frontRow}</p>
+            <p className="stage-v2-front-row hand">{stageContent.frontRow}</p>
           </div>
 
-          <div className="stage-art">
-            <img
-              className="clematis-art"
-              src="/art/clematis-moon.webp"
-              alt=""
-              width="1400"
-              height="1033"
-              loading="lazy"
-              aria-hidden="true"
-              data-reveal
-            />
-
-            <figure className="stage-photo" data-reveal>
-              <Tape className="tape--stage" />
-              <img
-                src="/art/alien-stage.webp"
-                alt="The cast of Alien Stage — Mizi, Sua, Ivan, Till, Luka and Hyuna — smiling together."
-                width="1200"
-                height="674"
-                loading="lazy"
-              />
-              <figcaption>the whole cast, one more round</figcaption>
-            </figure>
-
-            <div
-              className="stage-setlist"
-              data-reveal
-              style={{ '--delay': '180ms' } as CSSProperties}
-            >
-              <Tape className="tape--setlist" />
-              <p className="stage-setlist-title">
-                {stageContent.setlist.title} <span>no. 06</span>
-              </p>
-              <ol>
-                {stageContent.setlist.tracks.map((track, index) => (
-                  <li key={track}>
-                    <span>{String(index + 1).padStart(2, '0')}</span>
-                    {track}
-                  </li>
-                ))}
-              </ol>
-              <p className="stage-setlist-note">
-                <Spark /> all encores belong to you
-              </p>
-            </div>
-
-            <span className="stage-front" aria-hidden="true">
-              front row
-            </span>
+          <div className="stage-v2-setlist">
+            <Tape className="tape--setlist-v2" />
+            <p className="stage-setlist-title">
+              {stageContent.setlist.title} <span>no. 06</span>
+            </p>
+            <ol>
+              {stageContent.setlist.tracks.map((track, index) => (
+                <li key={track}>
+                  <span>{String(index + 1).padStart(2, '0')}</span>
+                  {track}
+                </li>
+              ))}
+            </ol>
+            <p className="stage-setlist-note">
+              <Spark /> all encores belong to you
+            </p>
           </div>
         </div>
       </div>

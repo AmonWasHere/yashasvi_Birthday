@@ -1,6 +1,5 @@
-import type { CSSProperties } from 'react';
 import { apothecary } from '../content';
-import { Spark, Tape, TornEdge } from './Ornaments';
+import { Spark, Tape } from './Ornaments';
 
 function Bottle({
   label,
@@ -45,103 +44,88 @@ function Bottle({
 
 export default function Apothecary() {
   return (
-    <section className="section section--olive apothecary" id="garden">
-      <TornEdge color="var(--rust)" />
-      <div className="container">
-        <header className="section-top section-top--light">
+    <section className="apo-v2" id="garden">
+      <div className="apo-v2-bg">
+        <img
+          src="/art/maomao-bg.webp"
+          alt="Mao Mao, the apothecary, in a green robe with a fan."
+          width="1200"
+          height="2133"
+          loading="lazy"
+        />
+      </div>
+      <div className="apo-v2-fade" aria-hidden="true" />
+
+      <div className="apo-v2-inner">
+        <header className="apo-v2-head">
           <p className="kicker">03 — the apothecary</p>
-          <p className="section-top-meta">{apothecary.reference}</p>
+          <p className="apo-v2-meta">{apothecary.reference}</p>
         </header>
 
-        <div className="apo-grid">
-          <div className="apo-copy">
-            <h2 data-reveal>
-              {apothecary.titleLead}
-              <br />
-              <em>{apothecary.titleAccent}</em>
-            </h2>
+        <div className="apo-v2-copy">
+          <h2>
+            <span>Mao Mao’s</span>
+            <em>garden.</em>
+          </h2>
 
-            <div className="apo-body" data-reveal>
-              {apothecary.paragraphs.map((paragraph) => (
-                <p key={paragraph.slice(0, 18)}>{paragraph}</p>
-              ))}
-            </div>
-
-            <blockquote className="apo-note" data-reveal>
-              <p>“{apothecary.note}”</p>
-              <cite>{apothecary.noteAttribution}</cite>
-            </blockquote>
-
-            <div className="shelf-wrap" data-reveal>
-              <ul className="shelf" aria-label="Apothecary bottles">
-                {apothecary.bottles.map((bottle, index) => (
-                  <Bottle
-                    key={bottle.label}
-                    label={bottle.label}
-                    amount={bottle.amount}
-                    index={index}
-                  />
-                ))}
-              </ul>
-              <div className="shelf-edge" aria-hidden="true" />
-              <p className="shelf-caption">the birthday cabinet · take what you need</p>
-            </div>
+          <div className="apo-v2-body">
+            {apothecary.paragraphs.map((paragraph) => (
+              <p key={paragraph.slice(0, 18)}>{paragraph}</p>
+            ))}
           </div>
 
-          <div className="apo-visual">
-            <figure className="character-card" data-reveal>
-              <Tape className="tape--character" />
-              <figcaption>the sharpest girl in the room</figcaption>
-              <img
-                src="/art/maomao.webp"
-                alt="Mao Mao, the apothecary, surrounded by flowers."
-                width="900"
-                height="1125"
-                loading="lazy"
-              />
-            </figure>
+          <blockquote className="apo-v2-note">
+            <p>“{apothecary.note}”</p>
+            <cite>{apothecary.noteAttribution}</cite>
+          </blockquote>
 
-            <figure
-              className="pressed-card"
-              data-reveal
-              style={{ '--delay': '160ms' } as CSSProperties}
-            >
-              <Tape className="tape--pressed" />
-              <img
-                src="/art/pressed.webp"
-                alt="An 18th-century cut-paper botanical study of a flowering plant on a dark background."
-                width="848"
-                height="960"
-                loading="lazy"
-              />
-              <figcaption>pressed from a good day</figcaption>
-            </figure>
+          <div className="apo-v2-shelf">
+            <ul className="shelf" aria-label="Apothecary bottles">
+              {apothecary.bottles.map((bottle, index) => (
+                <Bottle
+                  key={bottle.label}
+                  label={bottle.label}
+                  amount={bottle.amount}
+                  index={index}
+                />
+              ))}
+            </ul>
+            <div className="shelf-edge" aria-hidden="true" />
+            <p className="shelf-caption">the birthday cabinet · take what you need</p>
+          </div>
+        </div>
 
-            <div
-              className="rx-card"
-              data-reveal
-              style={{ '--delay': '240ms' } as CSSProperties}
-            >
-              <div className="rx-head">
-                <span className="rx-symbol">Rx</span>
-                <span className="rx-title">
-                  prescription
-                  <small>no. 0026</small>
-                </span>
-                <Spark className="rx-spark" />
-              </div>
-              <p className="rx-for">{apothecary.rx.forLine}</p>
-              <p className="rx-body">{apothecary.rx.body}</p>
-              <p className="rx-directions">{apothecary.rx.directions}</p>
-              <div className="rx-foot">
-                <span>{apothecary.rx.sig}</span>
-                <span className="rx-sign">the apothecary</span>
-              </div>
-            </div>
+        <span className="apo-v2-seal" aria-hidden="true">
+          {apothecary.seal}
+        </span>
 
-            <span className="apo-seal" aria-hidden="true">
-              {apothecary.seal}
+        <figure className="pressed-card apo-v2-pressed">
+          <Tape className="tape--pressed" />
+          <img
+            src="/art/pressed.webp"
+            alt="An 18th-century cut-paper botanical study of a flowering plant on a dark background."
+            width="848"
+            height="960"
+            loading="lazy"
+          />
+          <figcaption>pressed from a good day</figcaption>
+        </figure>
+
+        <div className="rx-card apo-v2-rx">
+          <div className="rx-head">
+            <span className="rx-symbol">Rx</span>
+            <span className="rx-title">
+              prescription
+              <small>no. 0026</small>
             </span>
+            <Spark className="rx-spark" />
+          </div>
+          <p className="rx-for">{apothecary.rx.forLine}</p>
+          <p className="rx-body">{apothecary.rx.body}</p>
+          <p className="rx-directions">{apothecary.rx.directions}</p>
+          <div className="rx-foot">
+            <span>{apothecary.rx.sig}</span>
+            <span className="rx-sign">the apothecary</span>
           </div>
         </div>
       </div>

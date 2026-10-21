@@ -1,92 +1,94 @@
 import { quotes, site } from '../content';
-import { ArrowDoodle, Spark, Sprig, StarStamp, Tape } from './Ornaments';
+import { ArrowDoodle, Spark } from './Ornaments';
+
+const tiles = [
+  { src: '/art/plath.webp', tint: '#b46b43', pos: 'center 24%' },
+  { src: '/art/maomao.webp', tint: '#525d35', pos: 'center 18%' },
+  { src: '/art/nana.webp', tint: '#8f302a', pos: 'center 32%' },
+  { src: '/art/alien-stage.webp', tint: '#3d6f6d', pos: 'center 32%' },
+  { src: '/art/austen.webp', tint: '#a98a5d', pos: 'center 28%' },
+  { src: '/art/dostoevsky.webp', tint: '#4b2d22', pos: 'center 24%' },
+];
 
 export default function Hero() {
   const plath = quotes[0];
 
   return (
-    <section className="hero" id="top">
-      <div className="hero-ghost" aria-hidden="true">
-        happy birthday to you
+    <section className="hero-v2" id="top">
+      <div className="hero-v2-mosaic" aria-hidden="true">
+        {tiles.map((tile, index) => (
+          <div className="hero-v2-tile" key={tile.src}>
+            <img
+              src={tile.src}
+              alt=""
+              style={{ objectPosition: tile.pos }}
+              loading={index < 2 ? 'eager' : 'lazy'}
+            />
+            <span className="hero-v2-tint" style={{ background: tile.tint }} />
+          </div>
+        ))}
+        <div className="hero-v2-wash" />
       </div>
-      <p className="hero-side" aria-hidden="true">
-        a birthday scrapbook <span>·</span> vol. 01
+
+      <p className="hero-v2-side" aria-hidden="true">
+        a birthday scrapbook <i>·</i> vol. 01 <i>·</i> for my sister
       </p>
 
-      <div className="container hero-inner">
-        <div className="hero-left">
-          <Tape className="tape--hero-a" />
-          <Tape className="tape--hero-b" />
-          <div className="hero-card">
-            <p className="hero-card-kicker">{site.relationship}</p>
-            <h1 className="hero-card-title">
-              <span className="sr-only">Happy birthday, {site.recipient}</span>
-              <span aria-hidden="true" className="hero-happy">
-                Happy
-              </span>
-              <span aria-hidden="true" className="hero-birthday">
-                Birthday
-              </span>
-            </h1>
-            <p className="hero-name">
-              <Spark className="hero-name-star" />
-              {site.recipient}
-            </p>
-            <p className="hero-card-note">
-              another trip around the sun,
-              <br />
-              and you keep getting better at it.
-            </p>
-            <StarStamp className="hero-stamp" />
-          </div>
-
-          <p className="hero-intro">
-            Poets, an apothecary, a wall of ice, two girls named Nana, and one stage
-            where nobody sings quietly. <span>Seven small chapters for you.</span>
+      <div className="hero-v2-inner">
+        <header className="hero-v2-head">
+          <p className="hero-v2-overline">
+            <Spark /> For my sister, my first friend
           </p>
-        </div>
+          <p className="hero-v2-issue">
+            Issue 01 <span>/</span> {site.year}
+          </p>
+        </header>
 
-        <div className="hero-collage">
-          <Sprig className="hero-sprig" />
-          <figure className="hero-portrait">
-            <Tape className="tape--portrait" />
-            <div className="hero-frame">
-              <img
-                src="/art/portrait.webp"
-                alt="A painted portrait of a young woman looking down, in black and white."
-                width="1400"
-                height="1700"
-                fetchPriority="high"
-              />
-            </div>
-            <figcaption>a portrait of a feeling</figcaption>
-          </figure>
+        <h1 className="hero-v2-title">
+          <span className="sr-only">Happy birthday, {site.recipient}</span>
+          <span className="hero-v2-happy" aria-hidden="true">
+            Happy
+          </span>
+          <span className="hero-v2-birthday" aria-hidden="true">
+            Birthday,
+          </span>
+          <em className="hero-v2-name" aria-hidden="true">
+            {site.recipient}.
+          </em>
+        </h1>
 
-          <blockquote className="hero-quote">
+        <div className="hero-v2-foot">
+          <p className="hero-v2-intro">
+            Poets, an apothecary, a wall of ice, two girls named Nana, and one stage
+            where nobody sings quietly.
+            <span>Seven small chapters for you.</span>
+          </p>
+
+          <blockquote className="hero-v2-quote">
             <p>“{plath.text}”</p>
             <cite>
               {plath.author} <span>{plath.source}</span>
             </cite>
           </blockquote>
 
-          <div className="hero-ticket" aria-hidden="true">
-            <span className="hero-ticket-side">admit one</span>
-            <span className="hero-ticket-main">
+          <div className="hero-v2-ticket" aria-hidden="true">
+            <span>admit one</span>
+            <strong>
               another trip
               <br />
               around the sun
-            </span>
-            <span className="hero-ticket-no">no. 0026</span>
+            </strong>
+            <i>no. 0026</i>
           </div>
         </div>
       </div>
 
-      <div className="hero-bottom">
+      <div className="hero-v2-bottom">
         <a className="hero-scroll" href="#letter">
           <span>turn the page</span>
           <ArrowDoodle />
         </a>
-        <div className="hero-marquee" aria-hidden="true">
+        <div className="hero-v2-marquee" aria-hidden="true">
           <div>
             <span>happy birthday</span>
             <i>✦</i>
@@ -102,6 +104,7 @@ export default function Hero() {
             <i>✦</i>
           </div>
         </div>
+        <p className="hero-v2-folio">scroll / 01</p>
       </div>
     </section>
   );

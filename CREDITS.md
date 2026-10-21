@@ -8,13 +8,10 @@ and duotoned for this project.
 
 | Used in | Work | Artist / source | License |
 | --- | --- | --- | --- |
-| Hero portrait, social preview | *Portrait of a Young Woman* (ca. 1885) | Edgar Degas — [The Met, object 436153](https://www.metmuseum.org/art/collection/search/436153) | Public domain / Met Open Access |
+| Wish portrait, social preview | *Portrait of a Young Woman* (ca. 1885) | Edgar Degas — [The Met, object 436153](https://www.metmuseum.org/art/collection/search/436153) | Public domain / Met Open Access |
 | The Apothecary | *Botanical Study* (ca. 1772–82) | Mary Delany — [The Met, object 360446](https://www.metmuseum.org/art/collection/search/360446) | Public domain / Met Open Access |
 | Ramparts of Ice | *Glacier* (ca. 1908–9) | John Singer Sargent — [The Met, object 12102](https://www.metmuseum.org/art/collection/search/12102) | Public domain / Met Open Access |
-| The Stage | *Clematis and Bird* (1852) | Utagawa Hiroshige — [The Met, object 56930](https://www.metmuseum.org/art/collection/search/56930) | Public domain / Met Open Access |
-| The Letter | *Covent Garden Theatre* (1786) | Thomas Rowlandson — [The Met, object 388766](https://www.metmuseum.org/art/collection/search/388766) | Public domain / Met Open Access |
 | The Zine | *Plant-Forms Ornamentally Treated — Strawberry* | Boston Public Library — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plant-Forms_Ornamentally_Treated_-_Strawberry_by_Boston_Public_Library.jpg) | Public domain |
-| The Commonplace Book | *NIE 1905 Celestial Charts* | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NIE_1905_Celestial_Charts.png) | Public domain |
 
 ## Author portraits
 

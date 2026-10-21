@@ -19,41 +19,38 @@ export default function Ice() {
   const [thawed, setThawed] = useState(false);
 
   return (
-    <section className="section section--ice ice" id="wall">
+    <section className="ice-v2" id="wall">
       <TornEdge color="var(--olive)" />
-      <div className="ice-flakes" aria-hidden="true">
-        <Snowflake className="ice-flake ice-flake--1" />
-        <Snowflake className="ice-flake ice-flake--2" />
-        <Snowflake className="ice-flake ice-flake--3" />
-        <Snowflake className="ice-flake ice-flake--4" />
-      </div>
 
-      <div className="container">
-        <header className="section-top section-top--ink">
+      <div className="ice-v2-bg" aria-hidden="true">
+        <img src="/art/glacier.webp" alt="" width="1600" height="1168" loading="lazy" />
+      </div>
+      <div className="ice-v2-wash" aria-hidden="true" />
+
+      <div className="ice-v2-inner">
+        <header className="ice-v2-head">
           <p className="kicker">04 — the wall</p>
-          <p className="section-top-meta">{ice.reference}</p>
+          <p className="ice-v2-meta">{ice.reference}</p>
         </header>
 
-        <div className="ice-head">
-          <h2 data-reveal>
+        <div className="ice-v2-title">
+          <h2>
             <span>{ice.title[0]}</span>
             <em>{ice.title[1]}</em>
           </h2>
-          <p className="ice-jp" lang="ja" data-reveal>
+          <p className="ice-v2-jp" lang="ja">
             氷の城壁
           </p>
         </div>
 
-        <div className="ice-grid">
-          <div className="ice-copy">
-            <p className="ice-lede" data-reveal>
+        <div className="ice-v2-grid">
+          <div className="ice-v2-copy">
+            <p className="ice-v2-lede">
               Some of us build winter around the softest parts.
             </p>
-            <p className="ice-body" data-reveal>
-              {ice.paragraphs[0]}
-            </p>
+            <p className="ice-v2-body">{ice.paragraphs[0]}</p>
 
-            <div className="ice-meter" data-reveal>
+            <div className="ice-v2-meter">
               {ice.meter.map((item) => (
                 <span key={item.label}>
                   <em>{item.label}</em>
@@ -83,34 +80,17 @@ export default function Ice() {
             </button>
           </div>
 
-          <div className="ice-visual">
-            <figure className="glacier-card" data-reveal>
-              <Tape className="tape--glacier" />
-              <div className="glacier-frame">
-                <img
-                  src="/art/glacier.webp"
-                  alt="A pale watercolor study of a glacier, all ice and dark rock."
-                  width="1600"
-                  height="1168"
-                  loading="lazy"
-                />
-                <span className="glacier-wash" aria-hidden="true" />
-              </div>
-              <figcaption>the view from your side</figcaption>
-            </figure>
-
-            <figure className="ice-manga" data-reveal>
-              <Tape className="tape--manga" />
-              <img
-                src="/art/ramparts.webp"
-                alt="Cover of volume 7 of Ramparts of Ice, showing two characters in black and blue."
-                width="720"
-                height="1024"
-                loading="lazy"
-              />
-              <figcaption>required reading · vol. 07</figcaption>
-            </figure>
-          </div>
+          <figure className="ice-v2-manga">
+            <Tape className="tape--manga-v2" />
+            <img
+              src="/art/ramparts.webp"
+              alt="Cover of volume 7 of Ramparts of Ice, showing two characters in black and blue."
+              width="720"
+              height="1024"
+              loading="lazy"
+            />
+            <figcaption>required reading · vol. 07</figcaption>
+          </figure>
         </div>
       </div>
     </section>

@@ -1,9 +1,10 @@
 import { site } from '../content';
-import { Spark, Tape } from './Ornaments';
+import { Spark, Tape, TornEdge } from './Ornaments';
 
 export default function Footer() {
   return (
     <footer className="footer">
+      <TornEdge color="var(--rust)" />
       <div className="footer-ghost" aria-hidden="true" />
       <div className="container">
         <div className="footer-top">
@@ -40,10 +41,8 @@ export default function Footer() {
                 Public-domain and open-access art via The Metropolitan Museum of Art and
                 Wikimedia Commons: Edgar Degas, <i>Portrait of a Young Woman</i> (ca.
                 1885); Mary Delany, <i>Botanical Study</i> (ca. 1772–82); John Singer
-                Sargent, <i>Glacier</i> (ca. 1908–9); Utagawa Hiroshige, <i>Clematis and
-                Bird</i> (1852); Thomas Rowlandson, <i>Covent Garden Theatre</i> (1786);
-                <i> Plant-Forms Ornamentally Treated — Strawberry</i> (Boston Public
-                Library); and <i>NIE 1905 Celestial Charts</i>.
+                Sargent, <i>Glacier</i> (ca. 1908–9); and <i>Plant-Forms Ornamentally
+                Treated — Strawberry</i> (Boston Public Library).
               </p>
               <p>
                 Author portraits of Sylvia Plath, Jane Austen and Fyodor Dostoevsky, and

@@ -1,84 +1,59 @@
-import type { CSSProperties } from 'react';
 import { letter, site } from '../content';
-import { Spark, TornEdge, WaxSeal } from './Ornaments';
+import { WaxSeal } from './Ornaments';
 
 export default function Letter() {
   return (
-    <section className="section section--paper letter" id="letter">
-      <TornEdge color="var(--rust)" />
-      <div className="container">
-        <header className="section-top">
+    <section className="letter-v2" id="letter">
+      <div className="letter-v2-photo">
+        <img
+          src="/art/plath.webp"
+          alt="Sylvia Plath, smiling and holding a flower."
+          width="720"
+          height="900"
+          loading="lazy"
+        />
+        <div className="letter-v2-wash" aria-hidden="true" />
+
+        <p className="letter-v2-folio">
+          01 <span>/ the letter</span>
+        </p>
+
+        <blockquote className="letter-v2-photoquote">
+          <p>“I am, I am, I am.”</p>
+          <cite>
+            Sylvia Plath <span>The Bell Jar</span>
+          </cite>
+        </blockquote>
+
+        <p className="letter-v2-photo-note">
+          for the girl who is still here,
+          <br />
+          still hers, still becoming.
+        </p>
+      </div>
+
+      <article className="letter-v2-paper">
+        <header className="letter-v2-head">
           <p className="kicker">01 — the letter</p>
-          <p className="section-top-meta">from my desk to yours · no. 01</p>
+          <p className="letter-v2-meta">from my desk to yours · no. 01</p>
         </header>
 
-        <div className="letter-grid">
-          <article className="letter-sheet" data-reveal>
-            <WaxSeal className="letter-seal" />
-            <p className="letter-date">on your birthday · {site.year}</p>
-            <h2 className="letter-greeting">{letter.greeting}</h2>
-            <div className="letter-body">
-              {letter.paragraphs.map((paragraph) => (
-                <p key={paragraph.slice(0, 20)}>{paragraph}</p>
-              ))}
-            </div>
-            <p className="letter-closing">{letter.closing}</p>
-            <p className="letter-signature">{letter.signature}</p>
-            <p className="letter-ps">
-              P.S. there is cake at the end. scroll responsibly.
-            </p>
-          </article>
+        <p className="letter-v2-date">on your birthday · {site.year}</p>
 
-          <aside className="letter-aside">
-            <div className="envelope" data-reveal style={{ '--delay': '120ms' } as CSSProperties}>
-              <div className="envelope-inner">
-                <div className="envelope-top">
-                  <div className="postmark" aria-hidden="true">
-                    <span>{letter.envelope.postmark[0]}</span>
-                    <strong>{letter.envelope.postmark[1]}</strong>
-                    <span>{letter.envelope.postmark[2]}</span>
-                  </div>
-                  <div className="stamp" aria-hidden="true">
-                    <Spark />
-                    <span>love</span>
-                  </div>
-                </div>
-                <p className="envelope-to">to</p>
-                <p className="envelope-address">
-                  {letter.envelope.to[0]}
-                  <br />
-                  {letter.envelope.to[1]}
-                </p>
-                <p className="envelope-from">from: {letter.envelope.from}</p>
-              </div>
-            </div>
+        <h2>{letter.greeting}</h2>
 
-            <figure
-              className="postcard"
-              data-reveal
-              style={{ '--delay': '220ms' } as CSSProperties}
-            >
-              <img
-                src="/art/theatre.webp"
-                alt="An 18th-century engraving of the packed auditorium of Covent Garden Theatre."
-                width="600"
-                height="308"
-                loading="lazy"
-              />
-              <figcaption>
-                <span>wish you were here</span>
-                <em>but you’re the whole occasion</em>
-              </figcaption>
-            </figure>
-
-            <p className="hand-note letter-hand" data-reveal>
-              I re-read your favourite book last week.
-              <br />
-              You were in every margin.
-            </p>
-          </aside>
+        <div className="letter-v2-body">
+          {letter.paragraphs.map((paragraph) => (
+            <p key={paragraph.slice(0, 18)}>{paragraph}</p>
+          ))}
         </div>
-      </div>
+
+        <p className="letter-v2-closing">{letter.closing}</p>
+        <p className="letter-v2-signature">{letter.signature}</p>
+        <p className="letter-v2-ps">P.S. there is cake at the end. scroll responsibly.</p>
+
+        <WaxSeal className="letter-v2-seal" />
+      </article>
     </section>
   );
 }
