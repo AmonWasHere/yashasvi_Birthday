@@ -1,6 +1,6 @@
 # Happy Birthday, Yashasvi — a scrapbook
 
-**Live:** [yashasvi-birthday-two.vercel.app](https://yashasvi-birthday-two.vercel.app)
+**Live:** [yashasvi-birthday-scrapbook.vercel.app](https://yashasvi-birthday-scrapbook.vercel.app)
 
 **Repo:** [github.com/AmonWasHere/yashasvi_Birthday](https://github.com/AmonWasHere/yashasvi_Birthday)
 
