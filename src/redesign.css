@@ -474,6 +474,7 @@
    -------------------------------------------------------------------------- */
 
 .letter-v2 {
+  position: relative;
   display: grid;
   grid-template-columns: 44% 56%;
   background: var(--paper-3);

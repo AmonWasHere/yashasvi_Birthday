@@ -6,7 +6,7 @@ export default function Nana() {
     <section className="nana-v2" id="zine">
       <div className="nana-v2-paper">
         <header className="nana-v2-head">
-          <p className="kicker">05 — the zine</p>
+          <p className="kicker">04 — the zine</p>
           <p className="nana-v2-meta">{nana.reference}</p>
         </header>
 
@@ -75,10 +75,10 @@ export default function Nana() {
       <div className="nana-v2-photo">
         <img
           className="nana-v2-photo-bg"
-          src="/art/nana-print.webp"
-          alt="A halftone print of Nana Osaki and Nana Komatsu sharing a strawberry."
-          width="1000"
-          height="563"
+          src="/art/nana-photo.webp"
+          alt="A halftone print of Nana Osaki and Nana Komatsu on a Nana manga cover."
+          width="700"
+          height="1094"
           loading="lazy"
         />
         <div className="nana-v2-photo-wash" aria-hidden="true" />
@@ -105,12 +105,12 @@ export default function Nana() {
           <Tape className="tape--nana-cover-v2" />
           <img
             src="/art/nana-cover.webp"
-            alt="Nana Osaki on the cover of the Nana 25th anniversary edition, volume 2."
+            alt="Nana Osaki on the Nana 25th-anniversary edition cover, volume 1."
             width="600"
             height="857"
             loading="lazy"
           />
-          <figcaption>the original, vol. 02</figcaption>
+          <figcaption>the original, vol. 01</figcaption>
         </figure>
 
         <div className="setlist-card nana-v2-setlist">

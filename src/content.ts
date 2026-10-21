@@ -6,22 +6,22 @@
  */
 export const site = {
   /** Shown in big type in the hero, the letter, the footer and the tab title. */
-  recipient: 'Sis',
+  recipient: 'Friend',
   /** A line that runs under the name. */
-  relationship: 'my sister, my first friend',
+  relationship: 'my friend, my chosen family',
   year: '2026',
   issue: 'A birthday scrapbook',
 };
 
 export const letter = {
-  greeting: 'Dear sister,',
+  greeting: 'Dear friend,',
   paragraphs: [
     'There is a particular kind of luck in finding someone who feels like a book you have read a hundred times and still dog-ear on purpose. You are that for me: the worn page, the margin note, the line I keep coming back to.',
     'So I made you a small corner of the internet. Part commonplace book, part cabinet of curiosities, entirely yours. There are poets here who say it better than I can, a fictional apothecary with a sharp tongue, a wall of ice with a warm room behind it, two girls who share a name and a heartbeat, and a stage where nobody sings quietly.',
     'Happy birthday. May this year be gentle with you. May you be a little reckless with your joy. And may you always, always know where home is.',
   ],
   closing: 'I love you more than the last page of a good book.',
-  signature: 'your sister',
+  signature: 'your friend',
   envelope: {
     to: ['the birthday girl', 'somewhere warm'],
     from: 'me, with cake',
@@ -46,8 +46,8 @@ export const quotes: Quote[] = [
     author: 'Sylvia Plath',
     source: 'The Bell Jar',
     note: 'for every morning you have to remind yourself that you are still here — and still yours.',
-    portrait: '/art/plath.webp',
-    portraitAlt: 'Sylvia Plath, smiling and holding a flower.',
+    portrait: '/art/plath-book.webp',
+    portraitAlt: 'A black-and-white portrait of Sylvia Plath.',
   },
   {
     label: 'dog-eared, no. 02',
@@ -55,7 +55,7 @@ export const quotes: Quote[] = [
     author: 'Jane Austen',
     source: 'Emma',
     note: 'the softest thing about you has always been the strongest thing about you.',
-    portrait: '/art/austen.webp',
+    portrait: '/art/austen-book.webp',
     portraitAlt: 'A portrait of Jane Austen.',
   },
   {
@@ -64,7 +64,7 @@ export const quotes: Quote[] = [
     author: 'Fyodor Dostoevsky',
     source: 'The Idiot',
     note: 'evidence: you exist.',
-    portrait: '/art/dostoevsky.webp',
+    portrait: '/art/dostoevsky-book.webp',
     portraitAlt: 'A portrait of Fyodor Dostoevsky by Vasily Perov.',
   },
 ];
@@ -171,5 +171,5 @@ export const wish = {
     'Wish received. The universe has been notified. (It’s a little scared of you.)',
   signoff:
     'Here’s to another year of you — the whole loud, tender, impossible thing.',
-  signature: 'with all my love, your sister',
+  signature: 'with all my love, your friend',
 };

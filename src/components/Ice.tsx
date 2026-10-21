@@ -29,7 +29,7 @@ export default function Ice() {
 
       <div className="ice-v2-inner">
         <header className="ice-v2-head">
-          <p className="kicker">04 — the wall</p>
+          <p className="kicker">03 — the wall</p>
           <p className="ice-v2-meta">{ice.reference}</p>
         </header>
 

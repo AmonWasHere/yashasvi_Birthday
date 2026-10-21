@@ -2,17 +2,17 @@ import { useEffect, useState } from 'react';
 import { site } from '../content';
 
 const chapters = [
-  { id: 'letter', label: 'The Letter' },
   { id: 'book', label: 'The Book' },
   { id: 'garden', label: 'The Garden' },
   { id: 'wall', label: 'The Wall' },
   { id: 'zine', label: 'The Zine' },
   { id: 'stage', label: 'The Stage' },
   { id: 'wish', label: 'The Wish' },
+  { id: 'letter', label: 'The Letter' },
 ];
 
 export default function Nav() {
-  const [active, setActive] = useState('letter');
+  const [active, setActive] = useState('');
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 

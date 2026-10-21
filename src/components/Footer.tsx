@@ -4,7 +4,7 @@ import { Spark, Tape, TornEdge } from './Ornaments';
 export default function Footer() {
   return (
     <footer className="footer">
-      <TornEdge color="var(--rust)" />
+      <TornEdge color="var(--paper-3)" />
       <div className="footer-ghost" aria-hidden="true" />
       <div className="container">
         <div className="footer-top">
@@ -32,7 +32,7 @@ export default function Footer() {
             made with love, tape, and a little bit of chaos
             <span> · {site.year}</span>
           </p>
-          <p className="footer-note">for my sister, my first friend</p>
+          <p className="footer-note">for my friend, my chosen family</p>
 
           <details className="credits">
             <summary>art, references &amp; a note on copyright</summary>

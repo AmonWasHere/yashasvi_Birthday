@@ -5,7 +5,7 @@ const tiles = [
   { src: '/art/plath.webp', tint: '#b46b43', pos: 'center 24%' },
   { src: '/art/maomao.webp', tint: '#525d35', pos: 'center 18%' },
   { src: '/art/nana.webp', tint: '#8f302a', pos: 'center 32%' },
-  { src: '/art/alien-stage.webp', tint: '#3d6f6d', pos: 'center 32%' },
+  { src: '/art/alien-stage-hero.webp', tint: '#3d6f6d', pos: 'center 32%' },
   { src: '/art/austen.webp', tint: '#a98a5d', pos: 'center 28%' },
   { src: '/art/dostoevsky.webp', tint: '#4b2d22', pos: 'center 24%' },
 ];
@@ -31,16 +31,13 @@ export default function Hero() {
       </div>
 
       <p className="hero-v2-side" aria-hidden="true">
-        a birthday scrapbook <i>·</i> vol. 01 <i>·</i> for my sister
+        a birthday scrapbook <i>·</i> vol. 01 <i>·</i> for my friend
       </p>
 
       <div className="hero-v2-inner">
         <header className="hero-v2-head">
           <p className="hero-v2-overline">
-            <Spark /> For my sister, my first friend
-          </p>
-          <p className="hero-v2-issue">
-            Issue 01 <span>/</span> {site.year}
+            <Spark /> For {site.relationship}
           </p>
         </header>
 
@@ -84,7 +81,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-v2-bottom">
-        <a className="hero-scroll" href="#letter">
+        <a className="hero-scroll" href="#book">
           <span>turn the page</span>
           <ArrowDoodle />
         </a>
@@ -94,13 +91,13 @@ export default function Hero() {
             <i>✦</i>
             <span>another trip around the sun</span>
             <i>✦</i>
-            <span>for my sister, my first friend</span>
+            <span>for my friend, my chosen family</span>
             <i>✦</i>
             <span>happy birthday</span>
             <i>✦</i>
             <span>another trip around the sun</span>
             <i>✦</i>
-            <span>for my sister, my first friend</span>
+            <span>for my friend, my chosen family</span>
             <i>✦</i>
           </div>
         </div>

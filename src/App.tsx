@@ -28,13 +28,13 @@ export default function App() {
       <Nav />
       <main id="main">
         <Hero />
-        <Letter />
         <Commonplace />
         <Apothecary />
         <Ice />
         <Nana />
         <Stage />
         <Wish />
+        <Letter />
       </main>
       <Footer />
     </>

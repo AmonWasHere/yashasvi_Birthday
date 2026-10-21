@@ -1,21 +1,22 @@
 import { letter, site } from '../content';
-import { WaxSeal } from './Ornaments';
+import { TornEdge, WaxSeal } from './Ornaments';
 
 export default function Letter() {
   return (
     <section className="letter-v2" id="letter">
+      <TornEdge color="var(--rust)" />
       <div className="letter-v2-photo">
         <img
-          src="/art/plath.webp"
-          alt="Sylvia Plath, smiling and holding a flower."
-          width="720"
-          height="900"
+          src="/art/plath-letter.webp"
+          alt="Sylvia Plath sitting on a stone wall, reading."
+          width="900"
+          height="885"
           loading="lazy"
         />
         <div className="letter-v2-wash" aria-hidden="true" />
 
         <p className="letter-v2-folio">
-          01 <span>/ the letter</span>
+          P.S. <span>/ the letter</span>
         </p>
 
         <blockquote className="letter-v2-photoquote">
@@ -34,8 +35,8 @@ export default function Letter() {
 
       <article className="letter-v2-paper">
         <header className="letter-v2-head">
-          <p className="kicker">01 — the letter</p>
-          <p className="letter-v2-meta">from my desk to yours · no. 01</p>
+          <p className="kicker">P.S. — the letter</p>
+          <p className="letter-v2-meta">the last word · after the cake</p>
         </header>
 
         <p className="letter-v2-date">on your birthday · {site.year}</p>
@@ -50,7 +51,7 @@ export default function Letter() {
 
         <p className="letter-v2-closing">{letter.closing}</p>
         <p className="letter-v2-signature">{letter.signature}</p>
-        <p className="letter-v2-ps">P.S. there is cake at the end. scroll responsibly.</p>
+        <p className="letter-v2-ps">P.P.S. I hope you saved me a slice of cake.</p>
 
         <WaxSeal className="letter-v2-seal" />
       </article>

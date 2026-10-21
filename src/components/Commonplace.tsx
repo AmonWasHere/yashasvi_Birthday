@@ -5,7 +5,7 @@ export default function Commonplace() {
     <section className="book-v2" id="book">
       <div className="book-v2-intro">
         <div className="book-v2-topline">
-          <p className="kicker">02 — the commonplace book</p>
+          <p className="kicker">01 — the commonplace book</p>
           <p className="book-v2-meta">three writers · dog-eared &amp; underlined</p>
         </div>
 

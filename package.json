@@ -2,7 +2,7 @@
   "name": "birthday-scrapbook",
   "private": true,
   "version": "1.0.0",
-  "description": "A collage-style birthday scrapbook for my sister.",
+  "description": "A collage-style birthday scrapbook for my friend.",
   "type": "module",
   "engines": {
     "node": ">=20"

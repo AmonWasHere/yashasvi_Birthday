@@ -32,8 +32,7 @@ and duotoned for this project.
   Shufunotomo, TOHO animation / OLM. Official character art.
 - **Ramparts of Ice** cover — *Kōri no Jōheki* / 氷の城壁, © Koucha Agasawa,
   Shueisha. Volume 7 cover.
-- **Nana** — *Nana*, © Ai Yazawa / Shueisha. Anime still and 25th-anniversary
-  edition cover, volume 2.
+- **Nana** — *Nana*, © Ai Yazawa / Shueisha. Anime still, a 25th-anniversary line-art cover (vol. 1), and a manga cover (vol. 8).
 - **Alien Stage** — © VIVINOS / Qmeng. Official group artwork.
 
 ## Quotes

@@ -1,4 +1,4 @@
-# Happy Birthday, Sis — a scrapbook
+# Happy Birthday, Friend — a scrapbook
 
 A single-page, collage-style birthday site. Rust walls, taped paper, public-domain
 portraits, poets, an apothecary, a wall of ice, a punk zine, and a stage with the
@@ -26,7 +26,7 @@ npm run preview   # preview the production build
 
 Almost all of the words live in **`src/content.ts`**:
 
-- `site.recipient` — the name in the hero, letter, footer and tab title (`Sis` by default)
+- `site.recipient` — the name in the hero, letter, footer and tab title (`Friend` by default)
 - `site.year` — the year in the nav and footer
 - `letter` — the letter and envelope details
 - `quotes` — the three commonplace-book cards

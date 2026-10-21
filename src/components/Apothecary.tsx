@@ -58,7 +58,7 @@ export default function Apothecary() {
 
       <div className="apo-v2-inner">
         <header className="apo-v2-head">
-          <p className="kicker">03 — the apothecary</p>
+          <p className="kicker">02 — the apothecary</p>
           <p className="apo-v2-meta">{apothecary.reference}</p>
         </header>
 

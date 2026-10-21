@@ -180,7 +180,7 @@ export function StarStamp({ className = '' }: { className?: string }) {
         fontSize="8"
         letterSpacing="2.4"
       >
-        FOR MY SISTER
+        FOR MY FRIEND
       </text>
     </svg>
   );
@@ -208,7 +208,7 @@ export function WaxSeal({ className = '' }: { className?: string }) {
         fontSize="27"
         fontStyle="italic"
       >
-        S
+        F
       </text>
     </svg>
   );
