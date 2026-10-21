@@ -36,7 +36,6 @@ export default function Letter() {
       <article className="letter-v2-paper">
         <header className="letter-v2-head">
           <p className="kicker">P.S. — the letter</p>
-          <p className="letter-v2-meta">the last word · after the cake</p>
         </header>
 
         <p className="letter-v2-date">on your birthday · {site.year}</p>

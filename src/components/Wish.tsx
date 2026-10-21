@@ -70,7 +70,6 @@ export default function Wish() {
       <div className="wish-v2-inner">
         <header className="wish-v2-head">
           <p className="kicker">05 — the wish</p>
-          <p className="wish-v2-meta">the last page (for now)</p>
         </header>
 
         <div className="wish-v2-heading">
