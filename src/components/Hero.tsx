@@ -56,9 +56,9 @@ export default function Hero() {
 
         <div className="hero-v2-foot">
           <p className="hero-v2-intro">
-            Poets, an apothecary, a wall of ice, two girls named Nana, and one stage
-            where nobody sings quietly.
-            <span>Seven small chapters for you.</span>
+            Poets, an apothecary, two girls named Nana, and one stage where nobody
+            sings quietly.
+            <span>Six small chapters for you.</span>
           </p>
 
           <blockquote className="hero-v2-quote">

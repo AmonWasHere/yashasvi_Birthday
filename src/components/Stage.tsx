@@ -67,7 +67,7 @@ export default function Stage() {
 
       <div className="stage-v2-inner">
         <header className="stage-v2-head">
-          <p className="kicker">05 — the stage</p>
+          <p className="kicker">04 — the stage</p>
           <div className="stage-v2-head-right">
             <p className="stage-v2-meta">{stageContent.reference}</p>
             <p className="stage-v2-tagline">{stageContent.tagline}</p>

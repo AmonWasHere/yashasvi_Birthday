@@ -40,9 +40,9 @@ export default function Footer() {
               <p>
                 Public-domain and open-access art via The Metropolitan Museum of Art and
                 Wikimedia Commons: Edgar Degas, <i>Portrait of a Young Woman</i> (ca.
-                1885); Mary Delany, <i>Botanical Study</i> (ca. 1772–82); John Singer
-                Sargent, <i>Glacier</i> (ca. 1908–9); and <i>Plant-Forms Ornamentally
-                Treated — Strawberry</i> (Boston Public Library).
+                1885); Mary Delany, <i>Botanical Study</i> (ca. 1772–82); and
+                <i>Plant-Forms Ornamentally Treated — Strawberry</i> (Boston Public
+                Library).
               </p>
               <p>
                 Author portraits of Sylvia Plath, Jane Austen and Fyodor Dostoevsky, and

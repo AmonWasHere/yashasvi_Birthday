@@ -1,8 +1,7 @@
 # Happy Birthday, Yashasvi — a scrapbook
 
 A single-page, collage-style birthday site. Rust walls, taped paper, public-domain
-portraits, poets, an apothecary, a wall of ice, a punk zine, and a stage with the
-lights on.
+portraits, poets, an apothecary, a punk zine, and a stage with the lights on.
 
 Built with **Vite + React + TypeScript**. No backend, no database, no runtime
 services — it is a static site, so it will comfortably handle far more traffic than a
@@ -30,7 +29,7 @@ Almost all of the words live in **`src/content.ts`**:
 - `site.year` — the year in the nav and footer
 - `letter` — the letter and envelope details
 - `quotes` — the three commonplace-book cards
-- `apothecary`, `ice`, `nana`, `stage`, `wish` — the copy for each chapter
+- `apothecary`, `nana`, `stage`, `wish` — the copy for each chapter
 
 Pictures are in `public/art/`. Swap in your own photos and update the `alt` text in
 the matching component. The Degas portrait is used in the Wish section and the social preview at

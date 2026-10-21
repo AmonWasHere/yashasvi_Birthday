@@ -17,7 +17,7 @@ export const letter = {
   greeting: 'Dear Yashasvi,',
   paragraphs: [
     'There is a particular kind of luck in finding someone who feels like a book you have read a hundred times and still dog-ear on purpose. You are that for me: the worn page, the margin note, the line I keep coming back to.',
-    'So I made you a small corner of the internet. Part commonplace book, part cabinet of curiosities, entirely yours. There are poets here who say it better than I can, a fictional apothecary with a sharp tongue, a wall of ice with a warm room behind it, two girls who share a name and a heartbeat, and a stage where nobody sings quietly.',
+    'So I made you a small corner of the internet. Part commonplace book, part cabinet of curiosities, entirely yours. There are poets here who say it better than I can, a fictional apothecary with a sharp tongue, two girls who share a name and a heartbeat, and a stage where nobody sings quietly.',
     'Happy birthday. May this year be gentle with you. May you be a little reckless with your joy. And may you always, always know where home is.',
   ],
   closing: 'I love you more than the last page of a good book.',
@@ -70,7 +70,7 @@ export const quotes: Quote[] = [
 ];
 
 export const apothecary = {
-  kicker: '03 — the apothecary',
+  kicker: '02 — the apothecary',
   reference: 'after The Apothecary Diaries',
   titleLead: 'Mao Mao’s',
   titleAccent: 'garden.',
@@ -96,25 +96,8 @@ export const apothecary = {
   seal: '薬',
 };
 
-export const ice = {
-  kicker: '04 — the wall',
-  reference: 'a note on winter',
-  title: ['A wall,', 'in winter.'],
-  paragraphs: [
-    'I don’t mind the cold. I’ll bring the tea, sit on the other side of the wall, and wait for the window to open.',
-  ],
-  hiddenTitle: 'a note from the other side',
-  hidden: 'The door was never locked. I’ll be here. Bring your weather.',
-  hint: 'scratch the frost',
-  thawedHint: 'there you are',
-  meter: [
-    { label: 'outside', value: '−40°' },
-    { label: 'inside', value: 'whatever you need' },
-  ],
-};
-
 export const nana = {
-  kicker: '05 — the zine',
+  kicker: '03 — the zine',
   reference: 'after Nana · Ai Yazawa',
   title: 'NANA',
   sublineLead: 'two girls, same name,',
@@ -140,7 +123,7 @@ export const nana = {
 };
 
 export const stage = {
-  kicker: '06 — the stage',
+  kicker: '04 — the stage',
   reference: 'after Alien Stage',
   titleLead: 'Sing',
   titleAccent: 'anyway.',
@@ -161,7 +144,7 @@ export const stage = {
 };
 
 export const wish = {
-  kicker: '07 — the wish',
+  kicker: '05 — the wish',
   titleLead: 'Make a',
   titleAccent: 'wish.',
   intro: 'Light the candles. Take a breath. Ask for the outrageous thing.',

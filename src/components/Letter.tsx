@@ -8,7 +8,7 @@ export default function Letter() {
       <div className="letter-v2-photo">
         <img
           src="/art/plath-letter.webp"
-          alt="Sylvia Plath sitting on a stone wall, reading."
+          alt="Sylvia Plath sitting on a stone ledge, reading."
           width="900"
           height="885"
           loading="lazy"

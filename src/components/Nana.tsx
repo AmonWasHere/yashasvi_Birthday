@@ -1,12 +1,13 @@
 import { nana } from '../content';
-import { SafetyPin, Spark, Tape } from './Ornaments';
+import { SafetyPin, Spark, Tape, TornEdge } from './Ornaments';
 
 export default function Nana() {
   return (
     <section className="nana-v2" id="zine">
+      <TornEdge color="var(--olive)" />
       <div className="nana-v2-paper">
         <header className="nana-v2-head">
-          <p className="kicker">04 — the zine</p>
+          <p className="kicker">03 — the zine</p>
           <p className="nana-v2-meta">{nana.reference}</p>
         </header>
 

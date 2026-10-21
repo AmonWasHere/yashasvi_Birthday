@@ -4,7 +4,6 @@ import { site } from '../content';
 const chapters = [
   { id: 'book', label: 'The Book' },
   { id: 'garden', label: 'The Garden' },
-  { id: 'wall', label: 'The Wall' },
   { id: 'zine', label: 'The Zine' },
   { id: 'stage', label: 'The Stage' },
   { id: 'wish', label: 'The Wish' },

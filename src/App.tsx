@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Letter from './components/Letter';
 import Commonplace from './components/Commonplace';
 import Apothecary from './components/Apothecary';
-import Ice from './components/Ice';
 import Nana from './components/Nana';
 import Stage from './components/Stage';
 import Wish from './components/Wish';
@@ -30,7 +29,6 @@ export default function App() {
         <Hero />
         <Commonplace />
         <Apothecary />
-        <Ice />
         <Nana />
         <Stage />
         <Wish />

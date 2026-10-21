@@ -10,7 +10,6 @@ and duotoned for this project.
 | --- | --- | --- | --- |
 | Wish portrait, social preview | *Portrait of a Young Woman* (ca. 1885) | Edgar Degas — [The Met, object 436153](https://www.metmuseum.org/art/collection/search/436153) | Public domain / Met Open Access |
 | The Apothecary | *Botanical Study* (ca. 1772–82) | Mary Delany — [The Met, object 360446](https://www.metmuseum.org/art/collection/search/360446) | Public domain / Met Open Access |
-| The Wall | *Glacier* (ca. 1908–9) | John Singer Sargent — [The Met, object 12102](https://www.metmuseum.org/art/collection/search/12102) | Public domain / Met Open Access |
 | The Zine | *Plant-Forms Ornamentally Treated — Strawberry* | Boston Public Library — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plant-Forms_Ornamentally_Treated_-_Strawberry_by_Boston_Public_Library.jpg) | Public domain |
 
 ## Author portraits
