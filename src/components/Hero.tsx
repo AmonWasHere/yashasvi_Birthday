@@ -5,9 +5,9 @@ const tiles = [
   { src: '/art/plath.webp', tint: '#b46b43', pos: 'center 24%' },
   { src: '/art/maomao.webp', tint: '#525d35', pos: 'center 18%' },
   { src: '/art/nana.webp', tint: '#8f302a', pos: 'center 32%' },
-  { src: '/art/alien-stage-hero.webp', tint: '#3d6f6d', pos: 'center 32%' },
-  { src: '/art/austen.webp', tint: '#a98a5d', pos: 'center 28%' },
-  { src: '/art/dostoevsky.webp', tint: '#4b2d22', pos: 'center 24%' },
+  { src: '/art/kuromi-tile.webp', tint: '#a65574', pos: 'center 40%', className: 'hero-v2-tile--kuromi' },
+  { src: '/art/alien-stage-hero.webp', tint: '#3d6f6d', pos: 'center 28%' },
+  { src: '/art/ramparts-girl.webp', tint: '#4e7e91', pos: 'center 30%' },
 ];
 
 export default function Hero() {
@@ -17,7 +17,7 @@ export default function Hero() {
     <section className="hero-v2" id="top">
       <div className="hero-v2-mosaic" aria-hidden="true">
         {tiles.map((tile, index) => (
-          <div className="hero-v2-tile" key={tile.src}>
+          <div className={`hero-v2-tile${tile.className ? ` ${tile.className}` : ''}`} key={tile.src}>
             <img
               src={tile.src}
               alt=""

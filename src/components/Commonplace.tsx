@@ -1,66 +1,92 @@
 import { quotes } from '../content';
+import { Spark, Tape, TornEdge } from './Ornaments';
 
 export default function Commonplace() {
   return (
-    <section className="book-v2" id="book">
-      <div className="book-v2-intro">
-        <div className="book-v2-topline">
-          <p className="kicker">01 — the commonplace book</p>
-          <p className="book-v2-meta">three writers · dog-eared &amp; underlined</p>
-        </div>
+    <section className="book-v3" id="book">
+      <TornEdge color="var(--cream)" />
 
-        <div className="book-v2-head">
-          <h2>
-            Things other people
-            <br />
-            <em>said better.</em>
-          </h2>
-          <p className="book-v2-lede">
-            Three writers who keep saying what I mean. I have pressed them between these
-            pages like flowers — keep them, if they help.
-          </p>
-        </div>
-      </div>
+      <div className="book-v3-inner">
+        <article className="book-v3-sheet">
+          <Tape className="book-v3-tape" />
 
-      <div className="book-v2-triptych">
-        {quotes.map((quote, index) => (
-          <article
-            className={`author-panel author-panel--${index + 1}`}
-            key={quote.author}
-          >
-            <img
-              className="author-panel-bg"
-              src={quote.portrait}
-              alt={quote.portraitAlt}
-              loading="lazy"
-            />
-            <div className={`author-panel-wash author-panel-wash--${index + 1}`} aria-hidden="true" />
-            <span className="author-panel-ghost" aria-hidden="true">
-              {quote.author.split(' ').slice(-1)[0]}
-            </span>
+          <header className="book-v3-head">
+            <p className="kicker">01 — the commonplace book</p>
+            <p className="book-v3-meta">three writers · dog-eared &amp; underlined</p>
+          </header>
 
-            <div className="author-panel-content">
-              <div className="author-panel-top">
-                <span className="author-panel-index">0{index + 1}</span>
-                <span className="author-panel-label">{quote.label}</span>
+          <div className="book-v3-title">
+            <h2>
+              Things other people
+              <br />
+              <em>said better.</em>
+            </h2>
+            <p className="book-v3-lede">
+              Three writers who keep saying what I mean. I have pressed them between these
+              pages like flowers — keep them, if they help.
+            </p>
+          </div>
+
+          <div className="book-v3-entries">
+            {quotes.map((quote, index) => (
+              <article
+                className={`book-v3-entry book-v3-entry--${index + 1}`}
+                key={quote.author}
+              >
+                <figure className="book-v3-photo">
+                  <Tape className="book-v3-photo-tape" />
+                  <img
+                    src={quote.portrait}
+                    alt={quote.portraitAlt}
+                    width="720"
+                    height="900"
+                    loading="lazy"
+                  />
+                  <figcaption>{quote.author}</figcaption>
+                </figure>
+
+                <div className="book-v3-quote">
+                  <span className="book-v3-index" aria-hidden="true">
+                    0{index + 1}
+                  </span>
+                  <blockquote>
+                    <p>“{quote.text}”</p>
+                  </blockquote>
+                  <p className="book-v3-author">
+                    {quote.author}
+                    <span>{quote.source}</span>
+                  </p>
+                  <p className="book-v3-note">
+                    <span aria-hidden="true">↳ </span>
+                    {quote.note}
+                  </p>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <footer className="book-v3-foot">
+            <div className="book-v3-card">
+              <p>THE BORROWER’S CARD</p>
+              <div className="book-v3-stamps">
+                <span>14 MAR</span>
+                <span>02 JUN</span>
+                <span>21 OCT</span>
               </div>
-
-              <div className="author-panel-quote">
-                <blockquote>
-                  <p>“{quote.text}”</p>
-                </blockquote>
-                <p className="author-panel-name">
-                  {quote.author}
-                  <span>{quote.source}</span>
-                </p>
-                <p className="author-panel-note">
-                  <span aria-hidden="true">↳ </span>
-                  {quote.note}
-                </p>
-              </div>
+              <small>return by the last page</small>
             </div>
-          </article>
-        ))}
+
+            <p className="book-v3-marginalia">
+              lend me the book
+              <br />
+              that changed you.
+            </p>
+
+            <Spark className="book-v3-spark" />
+          </footer>
+
+          <p className="book-v3-folio">commonplace book · page 01</p>
+        </article>
       </div>
     </section>
   );
