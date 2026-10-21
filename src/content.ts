@@ -16,11 +16,11 @@ export const site = {
 export const letter = {
   greeting: 'Dear Yashasvi,',
   paragraphs: [
-    'There is a particular kind of luck in finding someone who feels like a book you have read a hundred times and still dog-ear on purpose. You are that for me: the worn page, the margin note, the line I keep coming back to.',
-    'So I made you a small corner of the internet. Part commonplace book, part cabinet of curiosities, entirely yours. There are poets here who say it better than I can, a fictional apothecary with a sharp tongue, two girls who share a name and a heartbeat, and a stage where nobody sings quietly.',
-    'Happy birthday. May this year be gentle with you. May you be a little reckless with your joy. And may you always, always know where home is.',
+    'The last while hasn’t been kind to you. I know. Some days have been heavy, some have been unfair, and you’ve had to carry more than anyone should have to carry quietly.',
+    'But I know you. You’ll make it through — and knowing you, you’ll make something out of it, too. Not because you have to be strong all the time, but because that’s what you do: you take the messy pieces and slowly turn them into something that feels like yours. You don’t have to do it alone, though. That’s what I’m here for.',
+    'So happy birthday. I hope this year is gentler. I hope it gives you room to breathe, to be a little reckless with your joy, and to remember that you are allowed to want things — softness, rest, an ordinary Tuesday that doesn’t ask anything of you. And wherever this year takes you, know where home is. We’ll be there.',
   ],
-  closing: 'I love you more than the last page of a good book.',
+  closing: 'I love you. That’s all.',
   signature: 'Amon',
   envelope: {
     to: ['the birthday girl', 'somewhere warm'],
