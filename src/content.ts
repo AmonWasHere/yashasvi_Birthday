@@ -127,8 +127,8 @@ export const stage = {
   titleAccent: 'anyway.',
   tagline: 'for every kid who kept singing in a room full of aliens',
   paragraphs: [
-    'Alien Stage is about being watched and singing anyway. Whatever this year puts on your stage, I hope you keep choosing your own voice — even when it shakes.',
-    'I’ll be in the front row with the worst sign you have ever seen. I’ll cheer so loud the aliens get nervous.',
+    'Alien Stage can keep its judges, its scoreboard, and its hungry little audience. You were never singing for them. Whatever this year puts on your stage — a villain, a plot twist, a long silence — pick up the mic and sing anyway. Even when your voice shakes. Especially then.',
+    'Round ∞. The stage is yours. I’ll be in the front row with the worst sign you have ever seen, cheering so loud the aliens get nervous. And if the lights go out before the last note, I’ll start the song for you. Happy birthday, Yashasvi. Sing anyway.',
   ],
   cta: 'cue the lights',
   ctaOn: 'lights down',
