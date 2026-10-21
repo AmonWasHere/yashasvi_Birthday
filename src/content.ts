@@ -75,7 +75,6 @@ export const apothecary = {
   titleLead: 'Mao Mao’s',
   titleAccent: 'garden.',
   paragraphs: [
-    'Okay, every friend group needs an apothecary. The one who takes one look at your text — typos, dramatic pause, all of it — and prescribes tea, sunshine, or that one episode you have already watched four times. The one who remembers which snack fixes a bad day and which song should absolutely not be played before noon. Sharpest person in the room? Usually the one taking notes. In this case, obviously, that is you.',
     'So here is your prescription for the year: equal parts mischief and rest, one daily dose of curiosity, and someone who notices when the colour goes out of your face. Refills unlimited. Side effects may include singing in the kitchen and an inconvenient amount of hope. May your cabinet always be stocked with people who know what you need before you do — and may you never be too stubborn to ask.',
   ],
   note: 'The poison is in the dose. The cure is in the noticing.',
