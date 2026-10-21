@@ -16,9 +16,9 @@ export const site = {
 export const letter = {
   greeting: 'Dear Yashasvi,',
   paragraphs: [
-    'The last while hasn’t been kind to you. I know. Some days have been heavy, some have been unfair, and you’ve had to carry more than anyone should have to carry quietly.',
-    'But I know you. You’ll make it through — and knowing you, you’ll make something out of it, too. Not because you have to be strong all the time, but because that’s what you do: you take the messy pieces and slowly turn them into something that feels like yours. You don’t have to do it alone, though. That’s what I’m here for.',
-    'So happy birthday. I hope this year is gentler. I hope it gives you room to breathe, to be a little reckless with your joy, and to remember that you are allowed to want things — softness, rest, an ordinary Tuesday that doesn’t ask anything of you. And wherever this year takes you, know where home is. We’ll be there.',
+    'Things haven’t been good to you lately. Yes, I know. Some days have been heavy, some just felt off, and you’ve had to carry a lot of it quietly.',
+    'But I know you well enough to know that you’ll get through this — and you’ll probably make something out of it, too. Not because you have to be resilient all the time, but because that’s how you roll: you take all those fragmented parts and mould them into something whole and entirely yours.',
+    'So here’s your birthday wish. I hope this year brings a little more gentleness into your life. I hope it lets you step away from the hectic pace of things and indulge in what you need, without any obligations attached. You can want whatever you want. I hope this birthday reminds you of that — and brings some fun along with it.',
   ],
   closing: 'I love you. That’s all.',
   signature: 'Amon',
