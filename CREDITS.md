@@ -36,7 +36,7 @@ and duotoned for this project.
 - **Nana** — *Nana*, © Ai Yazawa / Shueisha. Anime still, a 25th-anniversary line-art cover (vol. 1), and a manga cover (vol. 8).
 - **Alien Stage** — © VIVINOS / Qmeng. Official artwork.
 - **Kuromi** — © Sanrio. Hero collage only; private use.
-- **Ramparts of Ice** — female lead image, © Koucha Agasawa / Shueisha /
+- **Ramparts of Ice** — female lead key visual, © Koucha Agasawa / Shueisha /
   Ramparts of Ice production partners. Hero collage only; private use.
 - **Sticker crops** — cropped from the Mao Mao art book cover, the *Nana*
   25th-anniversary edition cover (vol. 2), and Alien Stage key art. Same private-use
