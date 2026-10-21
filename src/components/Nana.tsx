@@ -83,6 +83,17 @@ export default function Nana() {
         />
         <div className="nana-v2-photo-wash" aria-hidden="true" />
         <span className="nana-v2-photo-label">the other Nana</span>
+
+        <figure className="sticker sticker--nana nana-v2-photo-sticker">
+          <img
+            src="/art/sticker-nana.webp"
+            alt="A die-cut sticker of Nana Osaki from Nana."
+            width="560"
+            height="560"
+            loading="lazy"
+          />
+          <figcaption>Nana</figcaption>
+        </figure>
         <span className="nana-v2-halftone" aria-hidden="true" />
 
         <span className="nana-v2-big-stamp" aria-hidden="true">

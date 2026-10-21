@@ -136,6 +136,17 @@ export default function Stage() {
           </div>
         </div>
       </div>
+
+      <figure className="sticker sticker--alnst stage-v2-sticker">
+        <img
+          src="/art/sticker-alnst.webp"
+          alt="A die-cut sticker of Sua from Alien Stage."
+          width="560"
+          height="560"
+          loading="lazy"
+        />
+        <figcaption>ALNST</figcaption>
+      </figure>
     </section>
   );
 }

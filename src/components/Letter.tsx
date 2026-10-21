@@ -41,7 +41,11 @@ export default function Letter() {
 
         <p className="letter-v2-date">on your birthday · {site.year}</p>
 
-        <h2>{letter.greeting}</h2>
+        <h2>
+          Dear
+          <br />
+          {letter.greeting.replace('Dear ', '')}
+        </h2>
 
         <div className="letter-v2-body">
           {letter.paragraphs.map((paragraph) => (

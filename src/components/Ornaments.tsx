@@ -208,7 +208,7 @@ export function WaxSeal({ className = '' }: { className?: string }) {
         fontSize="27"
         fontStyle="italic"
       >
-        F
+        Y
       </text>
     </svg>
   );

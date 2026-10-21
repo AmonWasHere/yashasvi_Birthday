@@ -46,15 +46,15 @@ export default function Footer() {
               </p>
               <p>
                 Author portraits of Sylvia Plath, Jane Austen and Fyodor Dostoevsky, and
-                character/manga images from <i>The Apothecary Diaries</i>, <i>Ramparts of
-                Ice</i>, <i>Nana</i> and <i>Alien Stage</i>, are included for a private,
+                character/manga images from <i>The Apothecary Diaries</i>, <i>Nana</i> and
+                <i>Alien Stage</i>, are included for a private,
                 non-commercial fan project. They remain © their respective creators,
                 photographers and publishers, and are not licensed for redistribution.
               </p>
               <p>
                 Made as a fan gift, with love, for the worlds and characters of <i>The
-                Apothecary Diaries</i>, <i>Ramparts of Ice</i>, <i>Nana</i>, and <i>Alien
-                Stage</i>. Not affiliated with or endorsed by their creators. Quotes from
+                Apothecary Diaries</i>, <i>Nana</i>, and <i>Alien Stage</i>. Not affiliated
+                with or endorsed by their creators. Quotes from
                 Sylvia Plath, Jane Austen, and Fyodor Dostoevsky are included for personal,
                 non-commercial use with attribution.
               </p>

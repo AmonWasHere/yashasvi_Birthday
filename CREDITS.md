@@ -10,7 +10,7 @@ and duotoned for this project.
 | --- | --- | --- | --- |
 | Wish portrait, social preview | *Portrait of a Young Woman* (ca. 1885) | Edgar Degas — [The Met, object 436153](https://www.metmuseum.org/art/collection/search/436153) | Public domain / Met Open Access |
 | The Apothecary | *Botanical Study* (ca. 1772–82) | Mary Delany — [The Met, object 360446](https://www.metmuseum.org/art/collection/search/360446) | Public domain / Met Open Access |
-| Ramparts of Ice | *Glacier* (ca. 1908–9) | John Singer Sargent — [The Met, object 12102](https://www.metmuseum.org/art/collection/search/12102) | Public domain / Met Open Access |
+| The Wall | *Glacier* (ca. 1908–9) | John Singer Sargent — [The Met, object 12102](https://www.metmuseum.org/art/collection/search/12102) | Public domain / Met Open Access |
 | The Zine | *Plant-Forms Ornamentally Treated — Strawberry* | Boston Public Library — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plant-Forms_Ornamentally_Treated_-_Strawberry_by_Boston_Public_Library.jpg) | Public domain |
 
 ## Author portraits
@@ -30,10 +30,11 @@ and duotoned for this project.
 
 - **Mao Mao** — *The Apothecary Diaries* / 薬屋のひとりごと, © Natsu Hyūga,
   Shufunotomo, TOHO animation / OLM. Official character art.
-- **Ramparts of Ice** cover — *Kōri no Jōheki* / 氷の城壁, © Koucha Agasawa,
-  Shueisha. Volume 7 cover.
 - **Nana** — *Nana*, © Ai Yazawa / Shueisha. Anime still, a 25th-anniversary line-art cover (vol. 1), and a manga cover (vol. 8).
 - **Alien Stage** — © VIVINOS / Qmeng. Official artwork.
+- **Sticker crops** — cropped from the Mao Mao art book cover, the *Nana*
+  25th-anniversary edition cover (vol. 2), and Alien Stage key art. Same private-use
+  note as above.
 
 ## Quotes
 
@@ -50,7 +51,6 @@ and duotoned for this project.
 This is a fan-made birthday gift inspired by:
 
 - *The Apothecary Diaries* (日向夏 / Natsu Hyūga, Shufunotomo)
-- *Ramparts of Ice* (*Kōri no Jōheki*, 氷の城壁, Koucha Agasawa)
 - *Nana* (Ai Yazawa, Shueisha)
 - *Alien Stage* (VIVINOS / Qmeng)
 

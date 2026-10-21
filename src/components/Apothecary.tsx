@@ -128,6 +128,17 @@ export default function Apothecary() {
             <span className="rx-sign">the apothecary</span>
           </div>
         </div>
+
+        <figure className="sticker sticker--mao apo-v2-sticker">
+          <img
+            src="/art/sticker-maomao.webp"
+            alt="A die-cut sticker of Mao Mao from The Apothecary Diaries."
+            width="560"
+            height="560"
+            loading="lazy"
+          />
+          <figcaption>Mao Mao</figcaption>
+        </figure>
       </div>
     </section>
   );

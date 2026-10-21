@@ -1365,7 +1365,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   Ramparts of Ice — the whole wall is the photograph
+   The Wall — the whole wall is the photograph
    -------------------------------------------------------------------------- */
 
 .ice-v2 {
@@ -1459,17 +1459,6 @@
   -webkit-text-stroke: 1.4px var(--ice-ink);
 }
 
-.ice-v2-jp {
-  margin: 0 4px 10px 0;
-  color: var(--ice-deep);
-  font-family: 'Yu Mincho', 'Hiragino Mincho ProN', serif;
-  font-size: 0.92rem;
-  letter-spacing: 0.5em;
-  line-height: 1.6;
-  writing-mode: vertical-rl;
-  opacity: 0.85;
-}
-
 .ice-v2-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
@@ -1539,37 +1528,10 @@
   backdrop-filter: blur(4px);
 }
 
-.ice-v2-manga {
-  position: relative;
-  justify-self: end;
-  width: min(72%, 350px);
-  margin: 0;
-  padding: 9px 9px 10px;
-  background: var(--cream);
-  box-shadow: var(--shadow-paper);
-  transform: rotate(-3.5deg);
-}
 
-.ice-v2-manga img {
-  width: 100%;
-  filter: saturate(0.94) contrast(1.03);
-}
-
-.ice-v2-manga figcaption {
-  padding-top: 7px;
-  color: var(--ice-ink);
-  font-family: var(--font-hand);
-  font-size: 1.18rem;
-  line-height: 1;
-  text-align: center;
-}
-
-.tape--manga-v2 {
-  top: -14px;
-  left: 34%;
-  width: 84px;
-  height: 27px;
-  transform: rotate(-3deg);
+.ice-v2-frost {
+  align-self: end;
+  padding-bottom: 8px;
 }
 
 @media (max-width: 900px) {
@@ -1581,10 +1543,6 @@
     font-size: clamp(4rem, 15vw, 8rem);
   }
 
-  .ice-v2-jp {
-    display: none;
-  }
-
   .ice-v2-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -1592,13 +1550,6 @@
 
   .ice-v2-copy {
     max-width: 620px;
-  }
-
-  .ice-v2-manga {
-    justify-self: end;
-    width: min(62%, 300px);
-    margin-right: 4%;
-    margin-top: -8px;
   }
 }
 
@@ -1616,11 +1567,11 @@
   }
 
   .ice-v2-title h2 {
-    font-size: clamp(3.4rem, 18vw, 5.6rem);
+    font-size: clamp(3.1rem, 16vw, 5.2rem);
   }
 
   .ice-v2-title h2 em {
-    margin-left: 9vw;
+    margin-left: 6vw;
   }
 
   .ice-v2-grid {
@@ -1636,11 +1587,6 @@
     flex-direction: row;
     align-items: baseline;
     gap: 10px;
-  }
-
-  .ice-v2-manga {
-    width: 62%;
-    margin-right: 0;
   }
 
   .ice-v2 .frost-card {
@@ -2718,4 +2664,135 @@
 .nav-meta {
   color: rgba(244, 232, 208, 0.82);
   opacity: 1;
+}
+
+/* --------------------------------------------------------------------------
+   Stickers — die-cut, cream border, a little attitude
+   -------------------------------------------------------------------------- */
+
+.sticker {
+  position: absolute;
+  z-index: 9;
+  width: 110px;
+  aspect-ratio: 1;
+  margin: 0;
+  padding: 6px;
+  border-radius: 50%;
+  background: var(--paper-3);
+  box-shadow: 0 16px 24px rgba(20, 10, 5, 0.3), 0 2px 5px rgba(20, 10, 5, 0.18);
+  transform: rotate(var(--tilt, -6deg));
+}
+
+.sticker::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  z-index: 2;
+  border: 1px solid rgba(43, 26, 18, 0.14);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.sticker::after {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  z-index: 2;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 18%, rgba(255, 255, 255, 0.38), transparent 34%);
+  pointer-events: none;
+}
+
+.sticker img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.sticker figcaption {
+  position: absolute;
+  right: 50%;
+  bottom: -17px;
+  z-index: 3;
+  padding: 2px 7px;
+  border: 1px solid rgba(43, 26, 18, 0.16);
+  background: var(--paper-3);
+  color: var(--ink);
+  font-family: var(--font-cond);
+  font-size: 0.46rem;
+  letter-spacing: 0.16em;
+  line-height: 1.3;
+  text-transform: uppercase;
+  white-space: nowrap;
+  box-shadow: 0 3px 6px rgba(20, 10, 5, 0.14);
+  transform: translateX(50%) rotate(calc(var(--tilt, -6deg) * -0.35));
+}
+
+.apo-v2-sticker {
+  --tilt: 6deg;
+  right: auto;
+  bottom: 76px;
+  left: 48.5%;
+  width: 114px;
+}
+
+.nana-v2-photo-sticker {
+  --tilt: -7deg;
+  top: 102px;
+  right: 5%;
+  width: 106px;
+}
+
+.stage-v2-sticker {
+  --tilt: 7deg;
+  top: 27%;
+  right: 4.5%;
+  width: 108px;
+}
+
+@media (max-width: 980px) {
+  .apo-v2-sticker {
+    position: static;
+    align-self: flex-end;
+    margin: 28px 0 0 auto;
+    width: 96px;
+  }
+}
+
+@media (max-width: 900px) {
+  .stage-v2-sticker {
+    position: static;
+    align-self: flex-end;
+    margin: 20px 16px 0 auto;
+    width: 86px;
+  }
+}
+
+@media (max-width: 720px) {
+  .nana-v2-photo-sticker {
+    top: 28px;
+    right: 14px;
+    width: 78px;
+  }
+}
+
+@media (max-width: 520px) {
+  .apo-v2-sticker {
+    width: 84px;
+    margin-top: 24px;
+  }
+
+  .sticker figcaption {
+    font-size: 0.42rem;
+  }
+}
+
+/* Give the apothecary header a readable strip over the portrait */
+.apo-v2-head {
+  margin-right: -12px;
+  margin-left: -12px;
+  padding: 10px 12px 0;
+  background: linear-gradient(90deg, rgba(20, 27, 16, 0.86), rgba(20, 27, 16, 0.36) 55%, transparent 88%);
 }

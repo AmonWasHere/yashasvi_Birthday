@@ -6,7 +6,7 @@
  */
 export const site = {
   /** Shown in big type in the hero, the letter, the footer and the tab title. */
-  recipient: 'Friend',
+  recipient: 'Yashasvi',
   /** A line that runs under the name. */
   relationship: 'my friend, my chosen family',
   year: '2026',
@@ -14,7 +14,7 @@ export const site = {
 };
 
 export const letter = {
-  greeting: 'Dear friend,',
+  greeting: 'Dear Yashasvi,',
   paragraphs: [
     'There is a particular kind of luck in finding someone who feels like a book you have read a hundred times and still dog-ear on purpose. You are that for me: the worn page, the margin note, the line I keep coming back to.',
     'So I made you a small corner of the internet. Part commonplace book, part cabinet of curiosities, entirely yours. There are poets here who say it better than I can, a fictional apothecary with a sharp tongue, a wall of ice with a warm room behind it, two girls who share a name and a heartbeat, and a stage where nobody sings quietly.',
@@ -98,8 +98,8 @@ export const apothecary = {
 
 export const ice = {
   kicker: '04 — the wall',
-  reference: 'after Ramparts of Ice · Kōri no Jōheki',
-  title: ['Ramparts', 'of Ice'],
+  reference: 'a note on winter',
+  title: ['A wall,', 'in winter.'],
   paragraphs: [
     'I don’t mind the cold. I’ll bring the tea, sit on the other side of the wall, and wait for the window to open.',
   ],

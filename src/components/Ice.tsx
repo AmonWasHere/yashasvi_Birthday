@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ice } from '../content';
-import { Tape, TornEdge } from './Ornaments';
+import { TornEdge } from './Ornaments';
 
 function Snowflake({ className = '' }: { className?: string }) {
   return (
@@ -38,9 +38,6 @@ export default function Ice() {
             <span>{ice.title[0]}</span>
             <em>{ice.title[1]}</em>
           </h2>
-          <p className="ice-v2-jp" lang="ja">
-            氷の城壁
-          </p>
         </div>
 
         <div className="ice-v2-grid">
@@ -58,7 +55,9 @@ export default function Ice() {
                 </span>
               ))}
             </div>
+          </div>
 
+          <div className="ice-v2-frost">
             <button
               type="button"
               className={`frost-card${thawed ? ' is-thawed' : ''}`}
@@ -79,18 +78,6 @@ export default function Ice() {
               </span>
             </button>
           </div>
-
-          <figure className="ice-v2-manga">
-            <Tape className="tape--manga-v2" />
-            <img
-              src="/art/ramparts.webp"
-              alt="Cover of volume 7 of Ramparts of Ice, showing two characters in black and blue."
-              width="720"
-              height="1024"
-              loading="lazy"
-            />
-            <figcaption>required reading · vol. 07</figcaption>
-          </figure>
         </div>
       </div>
     </section>
