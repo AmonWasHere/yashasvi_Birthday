@@ -39,9 +39,8 @@ export default function Footer() {
             <div className="credits-body">
               <p>
                 Public-domain and open-access art via The Metropolitan Museum of Art and
-                Wikimedia Commons: Edgar Degas, <i>Portrait of a Young Woman</i> (ca.
-                1885); Mary Delany, <i>Botanical Study</i> (ca. 1772–82); and
-                <i>Plant-Forms Ornamentally Treated — Strawberry</i> (Boston Public
+                Wikimedia Commons: Mary Delany, <i>Botanical Study</i> (ca. 1772–82);
+                and <i>Plant-Forms Ornamentally Treated — Strawberry</i> (Boston Public
                 Library).
               </p>
               <p>

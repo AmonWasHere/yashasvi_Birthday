@@ -32,9 +32,9 @@ Almost all of the words live in **`src/content.ts`**:
 - `apothecary`, `nana`, `stage`, `wish` — the copy for each chapter
 
 Pictures are in `public/art/`. Swap in your own photos and update the `alt` text in
-the matching component. The Degas portrait is used in the Wish section and the social preview at
-`public/og.jpg` — if you change the name in the hero, update or regenerate that image
-as well.
+the matching component. The Wish section uses a vintage birthday-cake photograph. The social preview at
+`public/og.jpg` is a mosaic of the hero images — if you change the name in the hero,
+update or regenerate that image as well.
 
 The site ships with `noindex, nofollow` and a `robots.txt` that disallows crawlers —
 it is meant to be shared by link, not found in search. Remove both if you want it
@@ -96,8 +96,8 @@ Build with `npm run build`, then publish the `dist/` folder (for example with th
 ## A note on the references
 
 This is a personal, fan-made gift. The decorative background art is public domain or
-CC0. The author portraits and character/manga images are copyrighted and are included
-for a **private, non-commercial** project; they are not licensed for redistribution.
+CC0. The author portraits, character/manga images and cake photograph are copyrighted and
+are included for a **private, non-commercial** project; they are not licensed for redistribution.
 If you publish this site publicly, replace those images with licensed assets or get
 permission from the rights holders. See [`CREDITS.md`](./CREDITS.md) for sources and
 licenses.

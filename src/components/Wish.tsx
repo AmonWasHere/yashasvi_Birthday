@@ -43,7 +43,7 @@ export default function Wish() {
     <section className="wish-v2" id="wish">
       <TornEdge color="var(--night)" />
       <div className="wish-v2-bg" aria-hidden="true">
-        <img src="/art/portrait.webp" alt="" width="1400" height="1700" loading="lazy" />
+        <img src="/art/cake.webp" alt="" width="1400" height="1092" loading="lazy" />
       </div>
       <div className="wish-v2-wash" aria-hidden="true" />
 

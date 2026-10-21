@@ -1060,311 +1060,6 @@
 }
 
 /* --------------------------------------------------------------------------
-   Apothecary — Mao Mao, full bleed
-   -------------------------------------------------------------------------- */
-
-.apo-v2 {
-  position: relative;
-  min-height: 100svh;
-  overflow: hidden;
-  background: var(--olive);
-  color: var(--cream);
-}
-
-.apo-v2 .kicker {
-  color: var(--cream-soft);
-}
-
-.apo-v2-bg {
-  position: absolute;
-  inset: 0 0 0 auto;
-  z-index: 0;
-  width: 62%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.apo-v2-bg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 12%;
-  filter: saturate(0.88) contrast(1.04) brightness(0.9);
-}
-
-.apo-v2-fade {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background:
-    linear-gradient(90deg, var(--olive) 0%, rgba(46, 50, 35, 0.97) 31%, rgba(46, 50, 35, 0.78) 45%, rgba(46, 50, 35, 0.06) 70%, rgba(46, 50, 35, 0.2) 100%),
-    linear-gradient(180deg, rgba(46, 50, 35, 0.5), transparent 25%, transparent 65%, rgba(46, 50, 35, 0.82));
-  pointer-events: none;
-}
-
-.apo-v2-inner {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  min-height: 100svh;
-  padding: 110px var(--pad) 62px;
-}
-
-.apo-v2-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 20px;
-  padding-top: 12px;
-  border-top: 1px solid rgba(244, 232, 208, 0.3);
-}
-
-.apo-v2-meta {
-  margin: 0;
-  color: var(--sage);
-  font-family: var(--font-type);
-  font-size: 0.55rem;
-  letter-spacing: 0.06em;
-}
-
-.apo-v2-copy {
-  width: min(46%, 590px);
-  margin: auto 0;
-}
-
-.apo-v2-copy h2 {
-  margin: 0 0 30px;
-  font-family: var(--font-poster);
-  font-size: clamp(6rem, 10.6vw, 11rem);
-  font-weight: 400;
-  line-height: 0.74;
-  letter-spacing: 0.005em;
-  text-transform: uppercase;
-}
-
-.apo-v2-copy h2 span {
-  display: block;
-  color: var(--cream);
-}
-
-.apo-v2-copy h2 em {
-  display: block;
-  margin-left: 12%;
-  color: #c3ccaa;
-  font-family: var(--font-display);
-  font-size: 0.55em;
-  font-style: italic;
-  text-transform: none;
-  letter-spacing: -0.05em;
-}
-
-.apo-v2-body p {
-  max-width: 45ch;
-  margin-bottom: 1.15em;
-  color: rgba(244, 232, 208, 0.8);
-  font-size: clamp(1.04rem, 1.22vw, 1.17rem);
-  line-height: 1.68;
-}
-
-.apo-v2-note {
-  margin: 30px 0 0;
-  padding-left: 20px;
-  border-left: 2px solid var(--sage);
-}
-
-.apo-v2-note p {
-  margin: 0;
-  color: var(--cream);
-  font-family: var(--font-display);
-  font-size: clamp(1.35rem, 2.1vw, 1.95rem);
-  font-style: italic;
-  line-height: 1.22;
-  letter-spacing: -0.02em;
-}
-
-.apo-v2-note cite {
-  display: block;
-  margin-top: 9px;
-  color: var(--sage);
-  font-family: var(--font-cond);
-  font-size: 0.5rem;
-  font-style: normal;
-  letter-spacing: 0.17em;
-  text-transform: uppercase;
-}
-
-.apo-v2-shelf {
-  max-width: 360px;
-  margin-top: 38px;
-}
-
-.apo-v2-shelf .shelf {
-  padding: 0;
-}
-
-.apo-v2-shelf .bottle svg {
-  max-width: 54px;
-}
-
-.apo-v2-seal {
-  position: absolute;
-  top: 150px;
-  right: 4.5%;
-  z-index: 7;
-  display: grid;
-  place-items: center;
-  width: 78px;
-  height: 78px;
-  border: 2px solid rgba(244, 232, 208, 0.45);
-  background: var(--red);
-  color: var(--paper-3);
-  font-family: 'Yu Mincho', 'Hiragino Mincho ProN', serif;
-  font-size: 2.35rem;
-  line-height: 1;
-  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.32);
-  transform: rotate(-7deg);
-}
-
-.apo-v2-pressed {
-  position: absolute;
-  top: 270px;
-  right: 8%;
-  z-index: 4;
-  width: 176px;
-  margin: 0;
-  padding: 7px 7px 8px;
-  background: var(--cream);
-  box-shadow: var(--shadow-paper);
-  transform: rotate(5deg);
-}
-
-.apo-v2-pressed img {
-  width: 100%;
-}
-
-.apo-v2-pressed figcaption {
-  padding-top: 4px;
-  color: var(--ink-soft);
-  font-family: var(--font-hand);
-  font-size: 1rem;
-  line-height: 1;
-  text-align: center;
-}
-
-.apo-v2-rx {
-  position: absolute;
-  right: 5.5%;
-  bottom: 46px;
-  left: auto;
-  z-index: 6;
-  width: 322px;
-  transform: rotate(-3.5deg);
-}
-
-.apo-v2-rx .rx-body {
-  font-size: 1.55rem;
-}
-
-@media (max-width: 980px) {
-  .apo-v2 {
-    display: block;
-  }
-
-  .apo-v2-bg {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .apo-v2-bg img {
-    object-position: center 12%;
-  }
-
-  .apo-v2-fade {
-    background:
-      linear-gradient(180deg, rgba(46, 50, 35, 0.34), rgba(46, 50, 35, 0.86) 48%, var(--olive) 100%),
-      linear-gradient(90deg, rgba(46, 50, 35, 0.74), transparent 80%);
-  }
-
-  .apo-v2-inner {
-    min-height: 0;
-    padding: 102px 24px 64px;
-  }
-
-  .apo-v2-copy {
-    width: 100%;
-    max-width: 620px;
-    margin-top: 72px;
-  }
-
-  .apo-v2-copy h2 {
-    font-size: clamp(5rem, 15vw, 8.5rem);
-  }
-
-  .apo-v2-seal,
-  .apo-v2-pressed,
-  .apo-v2-rx {
-    position: static;
-    margin: 26px 0 0 auto;
-  }
-
-  .apo-v2-seal {
-    width: 62px;
-    height: 62px;
-    font-size: 1.9rem;
-    margin-left: 0;
-  }
-
-  .apo-v2-pressed {
-    width: min(54%, 260px);
-  }
-
-  .apo-v2-rx {
-    width: min(100%, 430px);
-  }
-}
-
-@media (max-width: 520px) {
-  .apo-v2-inner {
-    padding: 92px 18px 50px;
-  }
-
-  .apo-v2-head {
-    display: block;
-  }
-
-  .apo-v2-meta {
-    margin-top: 8px;
-  }
-
-  .apo-v2-copy {
-    margin-top: 54px;
-  }
-
-  .apo-v2-copy h2 {
-    font-size: clamp(4.4rem, 20vw, 6.5rem);
-  }
-
-  .apo-v2-body p {
-    font-size: 1rem;
-  }
-
-  .apo-v2-shelf {
-    max-width: 100%;
-  }
-
-  .apo-v2-pressed {
-    width: 62%;
-  }
-
-  .apo-v2-rx {
-    padding: 22px 20px;
-  }
-}
-
-/* --------------------------------------------------------------------------
    Nana — a zine spread with a photo plate
    -------------------------------------------------------------------------- */
 
@@ -2128,8 +1823,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 18%;
-  filter: grayscale(1) sepia(0.2) contrast(1.04) brightness(0.7);
+  object-position: center 42%;
+  filter: grayscale(1) sepia(0.16) contrast(1.04) brightness(0.88);
   mask-image: linear-gradient(90deg, transparent 0%, #000 22%);
 }
 
@@ -2207,13 +1902,15 @@
 }
 
 .wish-v2-intro {
-  max-width: 330px;
+  max-width: 350px;
   margin: 0 0 8px;
-  padding-left: 18px;
-  border-left: 1px solid rgba(244, 232, 208, 0.36);
-  color: rgba(244, 232, 208, 0.82);
+  padding: 12px 16px;
+  border-left: 1px solid rgba(244, 232, 208, 0.5);
+  background: rgba(66, 30, 14, 0.58);
+  color: rgba(255, 246, 230, 0.92);
   font-size: clamp(1rem, 1.2vw, 1.12rem);
   line-height: 1.55;
+  backdrop-filter: blur(2px);
 }
 
 .wish-v2-main {
@@ -2501,13 +2198,7 @@
   transform: translateX(50%) rotate(calc(var(--tilt, -6deg) * -0.35));
 }
 
-.apo-v2-sticker {
-  --tilt: 6deg;
-  right: auto;
-  bottom: 76px;
-  left: 48.5%;
-  width: 114px;
-}
+
 
 .nana-v2-photo-sticker {
   --tilt: -7deg;
@@ -2566,4 +2257,435 @@
   margin-left: -12px;
   padding: 10px 12px 0;
   background: linear-gradient(90deg, rgba(20, 27, 16, 0.86), rgba(20, 27, 16, 0.36) 55%, transparent 88%);
+}
+
+/* --------------------------------------------------------------------------
+   The Garden — an apothecary page on a sage desk
+   -------------------------------------------------------------------------- */
+
+.garden-v3 {
+  --garden-bg: #c5c9ae;
+  --garden-paper: #f6ecd7;
+  --garden-ink: #26331f;
+  --garden-sage: #778765;
+  --garden-rust: #a24e2b;
+  position: relative;
+  overflow: hidden;
+  padding: 108px var(--pad) 92px;
+  background-color: var(--garden-bg);
+  background-image:
+    linear-gradient(rgba(38, 51, 31, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(38, 51, 31, 0.055) 1px, transparent 1px),
+    radial-gradient(ellipse at 10% 10%, rgba(255, 255, 255, 0.38), transparent 50%),
+    radial-gradient(ellipse at 90% 85%, rgba(83, 101, 64, 0.22), transparent 55%);
+  background-size: 48px 48px, 48px 48px, auto, auto;
+  color: var(--garden-ink);
+}
+
+.garden-v3::before {
+  content: 'herbarium';
+  position: absolute;
+  right: -2%;
+  bottom: -2vw;
+  color: rgba(38, 51, 31, 0.055);
+  font-family: var(--font-hand);
+  font-size: clamp(9rem, 24vw, 25rem);
+  font-weight: 700;
+  line-height: 0.7;
+  transform: rotate(-6deg);
+  pointer-events: none;
+  user-select: none;
+}
+
+.garden-v3-inner {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 0.53fr) minmax(0, 0.47fr);
+  align-items: start;
+  gap: clamp(20px, 3vw, 48px);
+}
+
+.garden-v3-paper {
+  position: relative;
+  z-index: 3;
+  padding: clamp(32px, 4vw, 54px) clamp(26px, 3.6vw, 52px) 38px;
+  background-color: var(--garden-paper);
+  background-image:
+    radial-gradient(ellipse at 12% 8%, rgba(124, 63, 34, 0.09), transparent 42%),
+    radial-gradient(ellipse at 90% 92%, rgba(124, 63, 34, 0.06), transparent 45%);
+  box-shadow: 0 28px 55px rgba(35, 43, 24, 0.25), 0 4px 10px rgba(35, 43, 24, 0.14);
+  transform: rotate(-1deg);
+}
+
+.garden-v3-paper-tape {
+  top: -15px;
+  left: 50%;
+  width: 108px;
+  height: 29px;
+  transform: translateX(-50%) rotate(-3deg);
+}
+
+.garden-v3-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 11px;
+  border-top: 1px solid rgba(38, 51, 31, 0.3);
+}
+
+.garden-v3 .kicker {
+  color: var(--garden-rust);
+}
+
+.garden-v3-meta {
+  margin: 0;
+  color: var(--garden-ink);
+  font-family: var(--font-type);
+  font-size: 0.52rem;
+  letter-spacing: 0.04em;
+  opacity: 0.62;
+}
+
+.garden-v3-paper h2 {
+  margin: 34px 0 28px;
+  color: var(--garden-ink);
+  font-family: var(--font-poster);
+  font-size: clamp(5.2rem, 9.2vw, 9.6rem);
+  font-weight: 400;
+  line-height: 0.72;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+}
+
+.garden-v3-paper h2 span {
+  display: block;
+}
+
+.garden-v3-paper h2 em {
+  display: block;
+  margin-left: 9%;
+  color: var(--garden-rust);
+  font-family: var(--font-display);
+  font-size: 0.6em;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: -0.055em;
+}
+
+.garden-v3-body p {
+  max-width: 46ch;
+  margin-bottom: 1.1em;
+  color: rgba(38, 51, 31, 0.84);
+  font-size: clamp(1rem, 1.15vw, 1.1rem);
+  line-height: 1.68;
+}
+
+.garden-v3-note {
+  margin: 26px 0 0;
+  padding-left: 18px;
+  border-left: 2px solid var(--garden-sage);
+}
+
+.garden-v3-note p {
+  margin: 0;
+  color: var(--garden-ink);
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.garden-v3-note cite {
+  display: block;
+  margin-top: 8px;
+  color: var(--garden-sage);
+  font-family: var(--font-cond);
+  font-size: 0.48rem;
+  font-style: normal;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.garden-v3-bottom {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: end;
+  gap: 22px;
+  margin-top: 34px;
+}
+
+.garden-v3-shelf {
+  min-width: 0;
+}
+
+.garden-v3 .shelf {
+  padding: 0;
+  color: var(--garden-ink);
+}
+
+.garden-v3 .bottle {
+  color: var(--garden-ink);
+}
+
+.garden-v3 .bottle-label {
+  color: var(--garden-ink);
+}
+
+.garden-v3 .bottle-amount {
+  color: rgba(38, 51, 31, 0.55);
+}
+
+.garden-v3 .shelf-caption {
+  color: rgba(38, 51, 31, 0.52);
+  text-align: left;
+}
+
+.garden-v3 .shelf-edge {
+  background: linear-gradient(180deg, #7a6443, #3b2d1d);
+}
+
+.garden-v3-rx {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  width: 100%;
+  padding: 20px 20px 18px;
+  background-color: #f2e4ca;
+  box-shadow: 0 16px 28px rgba(35, 43, 24, 0.2), 0 2px 5px rgba(35, 43, 24, 0.12);
+  transform: rotate(-2deg);
+}
+
+.garden-v3-rx .rx-body {
+  font-size: 1.3rem;
+}
+
+.garden-v3-rx .rx-directions {
+  font-size: 0.53rem;
+}
+
+.garden-v3-visual {
+  position: relative;
+  min-height: 830px;
+}
+
+.garden-v3-photo {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  z-index: 2;
+  width: 84%;
+  margin: 0;
+  padding: 10px 10px 9px;
+  background: var(--cream);
+  box-shadow: var(--shadow-paper);
+  transform: rotate(2.2deg);
+}
+
+.garden-v3-photo img {
+  display: block;
+  width: 100%;
+  height: 725px;
+  object-fit: cover;
+  object-position: center 18%;
+  filter: saturate(0.95) contrast(1.03);
+}
+
+.garden-v3-photo figcaption {
+  padding-top: 7px;
+  color: var(--garden-ink);
+  font-family: var(--font-hand);
+  font-size: 1.18rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.garden-v3-photo-tape {
+  top: -14px;
+  left: 40%;
+  width: 92px;
+  height: 26px;
+  transform: rotate(-3deg);
+}
+
+.garden-v3-seal {
+  position: absolute;
+  top: 0;
+  right: 3%;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  width: 74px;
+  height: 74px;
+  border: 2px solid rgba(246, 236, 215, 0.5);
+  background: var(--red);
+  color: var(--paper-3);
+  font-family: 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+  font-size: 2.2rem;
+  line-height: 1;
+  box-shadow: 0 7px 14px rgba(35, 43, 24, 0.28);
+  transform: rotate(-7deg);
+}
+
+.garden-v3-pressed {
+  position: absolute;
+  top: 92px;
+  left: 0;
+  z-index: 4;
+  width: 148px;
+  margin: 0;
+  padding: 7px 7px 8px;
+  background: var(--cream);
+  box-shadow: var(--shadow-paper);
+  transform: rotate(-5deg);
+}
+
+.garden-v3-pressed img {
+  width: 100%;
+}
+
+.garden-v3-pressed figcaption {
+  padding-top: 4px;
+  color: var(--garden-ink);
+  font-family: var(--font-hand);
+  font-size: 0.96rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.garden-v3-sticker {
+  --tilt: -6deg;
+  bottom: 20px;
+  left: 9%;
+  width: 100px;
+}
+
+@media (max-width: 1000px) {
+  .garden-v3 {
+    padding: 88px 24px 70px;
+  }
+
+  .garden-v3-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .garden-v3-paper {
+    transform: rotate(-0.7deg);
+  }
+
+  .garden-v3-visual {
+    min-height: 700px;
+  }
+
+  .garden-v3-photo {
+    width: 72%;
+    right: 5%;
+  }
+
+  .garden-v3-photo img {
+    height: 560px;
+  }
+
+  .garden-v3-pressed {
+    left: 4%;
+  }
+}
+
+@media (max-width: 600px) {
+  .garden-v3 {
+    padding: 70px 18px 56px;
+  }
+
+  .garden-v3-head {
+    display: block;
+  }
+
+  .garden-v3-meta {
+    margin-top: 7px;
+  }
+
+  .garden-v3-paper {
+    padding: 26px 20px 28px;
+  }
+
+  .garden-v3-paper h2 {
+    margin-top: 26px;
+    font-size: clamp(4rem, 18vw, 6rem);
+  }
+
+  .garden-v3-bottom {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .garden-v3-rx {
+    padding: 18px;
+  }
+
+  .garden-v3-rx .rx-body {
+    font-size: 1.2rem;
+  }
+
+  .garden-v3-visual {
+    min-height: 0;
+    padding: 32px 0 10px;
+  }
+
+  .garden-v3-photo {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  .garden-v3-photo img {
+    height: 430px;
+  }
+
+  .garden-v3-seal {
+    top: 0;
+    right: 1%;
+    width: 56px;
+    height: 56px;
+    font-size: 1.7rem;
+  }
+
+  .garden-v3-pressed {
+    top: 42px;
+    left: 0;
+    width: 110px;
+  }
+
+  .garden-v3-sticker {
+    bottom: 0;
+    left: 2%;
+    width: 78px;
+  }
+
+  .garden-v3-photo-tape {
+    left: 50%;
+    transform: translateX(-50%) rotate(-3deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .garden-v3-visual {
+    padding-bottom: 30px;
+  }
+
+  .garden-v3-sticker {
+    position: static;
+    width: 78px;
+    margin: 14px 5% 0 auto;
+  }
+}
+
+.stage-v2.is-lit .stage-button {
+  background: rgba(17, 16, 15, 0.72);
+  color: var(--cream);
 }

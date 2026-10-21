@@ -4,7 +4,7 @@ import { SafetyPin, Spark, Tape, TornEdge } from './Ornaments';
 export default function Nana() {
   return (
     <section className="nana-v2" id="zine">
-      <TornEdge color="var(--olive)" />
+      <TornEdge color="#c5c9ae" />
       <div className="nana-v2-paper">
         <header className="nana-v2-head">
           <p className="kicker">03 — the zine</p>
