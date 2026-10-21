@@ -189,30 +189,12 @@
 
 .hero-v2-foot {
   display: grid;
-  grid-template-columns: minmax(220px, 0.9fr) minmax(280px, 1.05fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: end;
   gap: clamp(24px, 4vw, 64px);
   margin-top: clamp(30px, 4vw, 54px);
   padding-top: 17px;
   border-top: 1px solid rgba(244, 232, 208, 0.28);
-}
-
-.hero-v2-intro {
-  max-width: 360px;
-  margin: 0;
-  color: rgba(244, 232, 208, 0.8);
-  font-size: clamp(1rem, 1.2vw, 1.12rem);
-  line-height: 1.55;
-}
-
-.hero-v2-intro span {
-  display: block;
-  margin-top: 8px;
-  color: rgba(244, 232, 208, 0.5);
-  font-family: var(--font-type);
-  font-size: 0.55rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 .hero-v2-quote {
@@ -409,10 +391,6 @@
     margin-top: 30px;
   }
 
-  .hero-v2-intro {
-    max-width: 480px;
-  }
-
   .hero-v2-quote {
     max-width: 440px;
     margin-top: 16px;
@@ -452,10 +430,6 @@
 
   .hero-v2-foot {
     padding-top: 14px;
-  }
-
-  .hero-v2-intro {
-    font-size: 0.98rem;
   }
 
   .hero-v2-quote {

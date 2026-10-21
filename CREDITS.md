@@ -47,10 +47,11 @@ and duotoned for this project.
 - Sylvia Plath, *The Bell Jar* (1963) — “I took a deep breath and listened to the old
   brag of my heart. I am, I am, I am.” Used as a short, attributed excerpt for a
   personal, non-commercial gift.
-- Jane Austen, *Emma* (1815) — “There is no charm equal to tenderness of heart.”
-  Public domain.
-- Fyodor Dostoevsky, *The Idiot* (1869) — “Beauty will save the world.” Public
-  domain; English translation attribution varies.
+- Jane Austen, *Pride and Prejudice* (1813) — “My courage always rises at every
+  attempt to intimidate me.” Public domain.
+- Fyodor Dostoevsky, *The Brothers Karamazov* (1880) — “The mystery of human
+  existence lies not in just staying alive, but in finding something to live for.”
+  Public domain; English translation attribution varies.
 
 ## References & inspirations
 

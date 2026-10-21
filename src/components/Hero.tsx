@@ -55,11 +55,6 @@ export default function Hero() {
         </h1>
 
         <div className="hero-v2-foot">
-          <p className="hero-v2-intro">
-            Poets, an apothecary, two girls named Nana, and one stage where nobody
-            sings quietly.
-            <span>Six small chapters for you.</span>
-          </p>
 
           <blockquote className="hero-v2-quote">
             <p>“{plath.text}”</p>
