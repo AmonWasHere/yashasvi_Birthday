@@ -83,8 +83,16 @@ export default function Stage() {
 
         <div className="stage-v2-bottom">
           <div className="stage-v2-copy">
-            {stageContent.paragraphs.map((paragraph) => (
-              <p key={paragraph.slice(0, 18)}>{paragraph}</p>
+            {stageContent.paragraphs.map((paragraph, index) => (
+              <p key={paragraph.slice(0, 18)}>
+                {paragraph}
+                {index === 0 && (
+                  <>
+                    {' '}
+                    <strong>{stageContent.stageLine}</strong>
+                  </>
+                )}
+              </p>
             ))}
 
             <button

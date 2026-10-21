@@ -3052,3 +3052,9 @@
   background: rgba(20, 29, 24, 0.42);
   backdrop-filter: blur(6px);
 }
+
+.stage-v2-copy strong {
+  color: var(--cream);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}

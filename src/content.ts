@@ -128,8 +128,8 @@ export const stage = {
   tagline: 'for every kid who kept singing in a room full of aliens',
   paragraphs: [
     'Alien Stage can keep its judges, its scoreboard, and its hungry little audience. You were never singing for them. Whatever this year puts on your stage — a villain, a plot twist, a long silence — pick up the mic and sing anyway. Even when your voice shakes. Especially then.',
-    'Round ∞. The stage is yours. I’ll be in the front row with the worst sign you have ever seen, cheering so loud the aliens get nervous. And if the lights go out before the last note, I’ll start the song for you. Happy birthday, Yashasvi. Sing anyway.',
   ],
+  stageLine: 'The stage is yours.',
   cta: 'cue the lights',
   ctaOn: 'lights down',
   litLine: 'the whole universe is watching. let it.',
